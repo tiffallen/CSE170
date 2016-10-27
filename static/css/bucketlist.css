@@ -20,11 +20,11 @@ html {
 #header {
 	background: #ddd;
 	padding: 5px 10px;
+	text-align:center;
 }
 
 #search {
-	width: 50%;
-	margin: auto;
+	text-align:center;
 }
 
 #main {
