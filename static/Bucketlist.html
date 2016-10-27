@@ -13,6 +13,13 @@
 <body>
 	<div id = "wrap" >
 		<div id = "header"><h1>APPLICATION NAME</h1> </div>
+		<div id = "search">
+			<form action = "action_page.php">
+				<input type= "text" name = "search" value="search for..."> 
+				<input type = "submit" value = "Search">
+				
+			</form>
+		</div>
 		<div id= "main">
 			<h2> column 1 </h2>
 			<p> list of pictures </p>
@@ -23,7 +30,7 @@
 		</div>
 		<div id = "footer">
 			<ul>
-				<li> <a href = "#"> Home 2 </a></li>
+				<li> <button id = "home" class = "btn-home btn btn-primary btn-lg" >Home </button></li>
 				<li> <a href = "#"> Memories </a></li>
 				<li> <a href = "#"> Bucketlist </a></li>
 			</ul>

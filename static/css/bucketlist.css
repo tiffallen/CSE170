@@ -19,6 +19,12 @@ html {
 
 #header {
 	background: #ddd;
+	padding: 5px 10px;
+}
+
+#search {
+	width: 50%;
+	margin: auto;
 }
 
 #main {
@@ -47,4 +53,9 @@ html {
 	display: inline;
 	margin: 0;
 	padding:85px;
+}
+
+.btn-home{
+	color: red;
+	background-color: green;
 }
