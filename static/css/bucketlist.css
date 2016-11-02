@@ -1,6 +1,14 @@
+*{
+	font-size: 32px;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
 body {
 	border: 1px dotted gray;
 	background-color: lightblue;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
 }
 
 html {
@@ -13,17 +21,32 @@ html {
 .container1 {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 }
-.navbar-center {
-	text-align: center;
+
+.navbar {
+	margin-bottom: 0;
+	margin-top: 0;
 }
+
+.form-control {
+	height: 32px;
+}
+
+
 .navbar-nav {
 	display:table;
-    width:100%;
     margin: 0;
+	width: 100%;
+	padding: 0;
+	
 }
 
 .page-header {
 	margin-bottom : 0;
 }
+
+h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
