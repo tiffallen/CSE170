@@ -14,4 +14,13 @@ router.get('/users/detail', function(req, res, next) {
   res.send('detail');
 });
 
+router.get('users/bucketlist', function (request, response){
+
+	console.log('request was made: ' + request.url);
+
+	response.writeHead(200, {'Content-Type': 'text/html'});
+	var myReadStream = fs.createReadStream(__dirname + '/Bucketlist.html', 'utf8');
+	myReadStream.pipe(response);
+});
+
 module.exports = router;

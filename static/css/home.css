@@ -66,6 +66,10 @@ input [type=text]{
      margin: 0 auto;
      background: #99c;
 }
+#main {
+    margin:0;
+    padding-left: 10px;
+}
 #footer {
     clear:both;
     background: #cc9;

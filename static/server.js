@@ -1,4 +1,4 @@
-var PORT = 8000;
+var PORT = 3000;
 
 var http = require('http');
 var fs = require('fs');
