@@ -3,24 +3,22 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Australia' });
+  res.render('index', { title: 'Just Go' });
 });
 
 router.get('/users', function(req, res, next) {
   res.send('respond with a resourse');
 });
 
-router.get('/users/detail', function(req, res, next) {
+router.get('/detail', function(req, res, next) {
   res.send('detail');
 });
+router.get('/bucketlist', function(req, res, next) {
 
-router.get('users/bucketlist', function (request, response){
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/Bucketlist.html');
+	//res.render('layout');
 
-	console.log('request was made: ' + request.url);
-
-	response.writeHead(200, {'Content-Type': 'text/html'});
-	var myReadStream = fs.createReadStream(__dirname + '/Bucketlist.html', 'utf8');
-	myReadStream.pipe(response);
 });
 
 module.exports = router;
