@@ -1,6 +1,5 @@
 body {
 	border: 1px dotted gray;
-	padding: 20p;
 	background-color: lightblue;
 }
 
@@ -11,51 +10,20 @@ html {
 	baackground: #a7a09a;
 }
 
-#wrap {
-	width: 750px;
-	margin: 0 auto;
-	background: #99c;
+.container1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navbar-center {
+	text-align: center;
+}
+.navbar-nav {
+	display:table;
+    width:100%;
+    margin: 0;
 }
 
-#header {
-	background: #ddd;
-	padding: 5px 10px;
-	text-align:center;
-}
-
-#search {
-	text-align:center;
-}
-
-#main {
-	float: left;
-	width:  375px;
-	background: #9c9;
-}
-
-#sidebar {
-	float: right;
-	width: 375px;
-	background: #9c9;
-}
-
-#footer {
-	clear:both;
-	background: #cc9;
-}
-
-#footer ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-#footer li {
-	display: inline;
-	margin: 0;
-	padding:85px;
-}
-
-.btn-home{
-	color: red;
-	background-color: green;
+.page-header {
+	margin-bottom : 0;
 }
