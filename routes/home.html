@@ -1,100 +1,101 @@
-<!doctype html>
+<!document html>
 <html>
-<head>
-	<title>Explore</title>	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="stylesheet/bootstrap.min.css" rel="stylesheet">
-	<link href="stylesheet/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="stylesheet/home.css" rel="stylesheet">   
-
+<head> 
+	<title>Explore</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="stylesheets/bootstrap.min.css" rel="stylesheet"/>
+	<link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet"/>
+	<link href="stylesheets/home.css" rel="stylesheet"/>
+	
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/public/stylesheets/bootstrap.min.js"></script>
+	
 </head>
 
 <body>
-	<div id = "wrap" >
-		<div class="header">
-			<h1>Explore</h1> </br>
+	<div class = "jumbotron app-name page-header">
+		<div class = "container1" >
+			<h1> Explore </h1>
 		</div>
-
-
-		<div id = "search">
-			<form action = "action_page.php">
-				<div style="text-align: center;">
-				<input type= "text" name = "search" placeholder="search for..."> 
-				<input type = "submit" value = "Search">
-			</form></br>
-		</div>
-
-
-		<div id= "main">
-			<a href = "defaultpage.html">
-			<button class="button" type = "submit">Category One</br> 
-				<img src = "images/default-event.png" alt = "default event" />
-			</button></a>
-
-			<a href = "defaultpage.html">
-			<button class="button" type = "submit">Category Two</br> 
-				<img src = "images/default-event.png" alt = "default event" />
-			</button>
-			</a>
-
-			<a href = "defaultpage.html">
-				<button class="button" type = "submit">Category Three</br> 
-				<img src = "images/default-event.png" alt = "default event" />
-				</button>
-			</a>
-
-			<a href = "defaultpage.html">
-				<button class="button" type = "submit" >Category Four</br> 
-					<img src = "images/default-event.png" alt = "default event" />
-				</button>
-			</a>
-
-			<a href = "defaultpage.html">
-				<button class="button" type = "submit">Category Five</br> 
-					<img src = "images/default-event.png" alt = "default event" />
-				</button>
-			</a>
-
-			<a href = "defaultpage.html">
-				<button class="button" type = "submit">Category Six</br> 
-					<img src = "images/default-event.png" alt = "default event" />
-				</button>
-			</a>
-			</br>
-		</div>
-
 	</div>
-	<div id = "footer">
-		<ul>
-			<li>
-				<a href= "home">
-				<icon class="icon">Home</br> 
-					<img src = "images/home.png" alt="home icon"/>
-				</icon>
-				</a>
+	
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse  container1">
+				<div class="nav navbar-nav navigation">
+					<li class  = "col-xs-3"> <a href ="home" > Back </a> </li>
 
-				<a href = "memories">
-				<icon class="icon">Memories</br> 
-					<img src = "images/memories.jpg" alt= "memories icon"/>
-				</icon>
-				</a>
-
-				<a href = "bucketlist">
-				<icon class="icon">Bucket List</br> 
-					<img src = "images/bucketlist.jpg" alt="bucketlist icon"/>
-				</icon>
-				</a>
-			</li>
-		</ul>
+					<li class  = "col-xs-6 text-center" >
+						<form class="navbar-form nav-center">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-secondary">Submit </button>
+						</form>
+					</li>
+					<li class  = "col-xs-3 .col-md-offset-3"\ >
+						
+					</li>
+				</div>
+				
+				
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	
+	<!-- WHERE THE PICTURES START -->
+	<div class = "picturebody container" style = "margin-top: 10px;">
+		<div class = "row">
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail  module mid" url="https://65.media.tumblr.com/a32a263e3cd5d1b7415337abe19ccf7d/tumblr_og11gvKznQ1uq521lo1_500.jpg">
+					<div class = "caption">
+						<h4> NAME OF CATEGORY </h4>
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid">
+					<div class = "caption">
+						<h4> NAME OF CATEGORY </h4>
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid">
+					<div class = "caption">
+						<h4> NAME OF CATEGORY </h4>
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid">
+					<div class = "caption">
+						<h4> NAME OF CATEGORY </h4>
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid">
+					<div class = "caption">
+						<h4> NAME OF CATEGORY </h4>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-	<!--jQuery (necesssary for Bootstrap's JavaScript plugins)-->
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<!-- Include all complied plugins (below), or include individual files as needed --> 
-	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- 	FOOTER 		-->
+	<nav class = "footer nav navbar-default" >
+		<div class = "container-fluid container1">
+			<li> <a href ="home" class = "col-xs-4"> Home <span class = "sr-only"> </span></a> </li>
+			<li> <a href = "memories" class = "col-xs-4"> Memories <span class = "sr-only"> </span> </a> </li>
+			<li> <a href = "bucketlist" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span> </a> </li>
+		</div>
+	</nav>
+
 </body>
 </html>

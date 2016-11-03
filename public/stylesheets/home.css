@@ -1,88 +1,103 @@
+wh*{
+    font-size: 32px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
 body {
-     border: 1px dotted gray;
-     padding: 20p;
-     background-color: lightblue;
+    background-color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
 }
 
 html {
-     margin: 0;
-     padding: 0;
-     color: #000;
-     background: #a7a09a;
-}
-
-.button{
-     background-color: #d3d3d3;
-     border: black;
-     color: black;
-     padding: 15px 15px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-     cursor: pointer;
-     margin-left: 20px;
-     background-color: #d3d3d3;
-     padding: 15px; 
-     width: 300px;
-}
-
-.icon{ 
-     background-color: #d3d3d3;
-     border: black;
-     color: black;
-     padding: 15px 15px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-     cursor: pointer;
-     margin-left: 20px;
-     background-color: #d3d3d3;
-     padding: 20px; 
-     width: 150px;
-};
-
-input [type=text]{
-    width: 130px;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 16px;
-    background-color: white;
-    background-position: 10px 10px;
-    padding: 12px 20px 12px 40px;
-}
-
-.header{
-     background: #ddd;
-     padding: 5px 10px;
-     text-align:center;
-}
-#wrap {
-     width: 750px;
-     margin: 0 auto;
-     background: #99c;
-}
-#main {
-    margin:0;
-    padding-left: 10px;
-}
-#footer {
-    clear:both;
-    background: #cc9;
-}
-
-#footer ul {
     margin: 0;
     padding: 0;
-    list-style: none;
-}
-#footer li {
-    display: inline;
-    margin: 0;
-    padding:85px;
+    color: #000;
 }
 
+.container1 {
+    display: flex;
+    justify-content: center;
+    background-color: #e7e7e7;
+}
+
+.jumbotron {
+    margin-top: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #e7e7e7;
+}
+
+.form-control {
+    height: 32px;
+}
+
+.thumbnail {
+    margin: 15px 15px 15px 15px;
+}
+
+.picture-body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display:table;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: #e7e7e7;
+    bottom: 0;
+}
+
+.page-header {
+    margin-bottom : 0;
+    background-color: #e7e7e7;
+    
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://66.media.tumblr.com/e95961696bb79f01013bda678452bce9/tumblr_og0o4cf8BT1rsezm9o1_1280.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    min-height: 10%;
+    min-width: 10%;
+    float: left;
+    position: relative;
+    margin: auto;
+}
+
+.mid h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rp;
+  transform: translate(-50%, -50%);
+}
