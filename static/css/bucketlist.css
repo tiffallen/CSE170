@@ -65,8 +65,15 @@ html {
 	
 }
 
+.caption {
+	text-align: center;
+}
+
 h1 {
 	font-family: 'Shadows Into Light', cursive;
 	font-weight: bold;
 }
+
+
+
 
