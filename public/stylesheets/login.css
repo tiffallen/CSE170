@@ -1,0 +1,103 @@
+wh*{
+    font-size: 32px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+body {
+    background-color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    background-color: #e7e7e7;
+}
+
+.jumbotron {
+    margin-top: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    margin-top: 0;
+    background-color: #e7e7e7;
+}
+
+.form-control {
+    height: 32px;
+}
+
+.thumbnail {
+    margin: 15px 15px 15px 15px;
+}
+
+.picture-body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display:table;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    background-color: #e7e7e7;
+    bottom: 0;
+}
+
+.page-header {
+    margin-bottom : 0;
+    background-color: #e7e7e7;
+    
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://66.media.tumblr.com/e95961696bb79f01013bda678452bce9/tumblr_og0o4cf8BT1rsezm9o1_1280.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    min-height: 10%;
+    min-width: 10%;
+    float: left;
+    position: relative;
+    margin: auto;
+}
+
+.mid h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rp;
+  transform: translate(-50%, -50%);
+}
