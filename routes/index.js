@@ -41,5 +41,11 @@ router.get('/memories', function(req, res, next) {
 	//res.render('layout');
 
 });
+router.get('/new', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/newMemories.html');
+	//res.render('layout');
+});
 
 module.exports = router;
