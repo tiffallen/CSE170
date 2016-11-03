@@ -4,6 +4,11 @@ wh*{
 	font-weight: bold;
 }
 
+h4{
+font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
 body {
 	background-color: white;
 	font-family: 'Shadows Into Light', cursive;
@@ -68,5 +73,35 @@ html {
 h1 {
 	font-family: 'Shadows Into Light', cursive;
 	font-weight: bold;
+}
+
+.module {
+  background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(https://65.media.tumblr.com/a32a263e3cd5d1b7415337abe19ccf7d/tumblr_og11gvKznQ1uq521lo1_500.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    min-height: 10%;
+    min-width: 10%;
+    float: left;
+    position: relative;
+    margin: auto;
+}
+
+.mid h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 300%;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rp;
+  transform: translate(-50%, -50%);
 }
 

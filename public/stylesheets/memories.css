@@ -4,6 +4,11 @@ wh*{
     font-weight: bold;
 }
 
+h4{
+	font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
 body {
     background-color: white;
     font-family: 'Shadows Into Light', cursive;
