@@ -1,61 +1,72 @@
+*{
+	font-size: 32px;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
 body {
-	border: 1px dotted gray;
-	padding: 20p;
 	background-color: lightblue;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
 }
 
 html {
 	margin: 0;
 	padding: 0;
 	color: #000;
-	baackground: #a7a09a;
 }
 
-#wrap {
-	width: 750px;
-	margin: 0 auto;
-	background: #99c;
+.container1 {
+	display: flex;
+	justify-content: center;
+	background-color: #e7e7e7;
 }
 
-#header {
-	background: #ddd;
-	padding: 5px 10px;
-	text-align:center;
+.jumbotron {
+	margin-top: 0;
 }
 
-#search {
-	text-align:center;
+.navbar {
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #e7e7e7;
 }
 
-#main {
-	float: left;
-	width:  375px;
-	background: #9c9;
+.form-control {
+	height: 32px;
 }
 
-#sidebar {
-	float: right;
-	width: 375px;
-	background: #9c9;
+.thumbnail {
+	margin: 15px 15px 15px 15px;
 }
 
-#footer {
-	clear:both;
-	background: #cc9;
+.picture-body{
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
 }
 
-#footer ul {
-	margin: 0;
+.navbar-nav {
+	display:table;
+    margin: 0;
+	width: 100%;
 	padding: 0;
-	list-style: none;
-}
-#footer li {
-	display: inline;
-	margin: 0;
-	padding:85px;
 }
 
-.btn-home{
-	color: red;
-	background-color: green;
+.footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
 }
+
+.page-header {
+	margin-bottom : 0;
+	background-color: #e7e7e7;
+	
+}
+
+h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+}
+
