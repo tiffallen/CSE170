@@ -16,11 +16,10 @@ var server = http.createServer(
 function (request, response){
 
 	console.log('request was made: ' + request.url);
-
-	response.writeHead(200, {'Content-Type': 'text/html'});
-	var myReadStream = fs.createReadStream(__dirname + '/Bucketlist.html', 'utf8');
-	myReadStream.pipe(response);
+	response.writeHead(200, {'Content-Type': 'images/png'});
+	var myReadStream = fs.createReadStream(_dirname + '/bucketlist.html', 'utf8');
+	myReadStream.pipe(res);
 });
 
 server.listen(3000);
-console.log('listening to port 8000');
+console.log('listening to port 3000');
