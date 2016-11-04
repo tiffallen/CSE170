@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
 var multer = require('multer');
-var upload = multer({ dest: 'public/uploads/' })
-var data = require('../data.json')
+var upload = multer({ dest: 'public/uploads/' });
+var data = require('../data.json');
 
+var bucketlist = require('../public/javascripts/bucketlist');
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
   res.render('index', { title: 'Just Go' });
@@ -16,12 +17,14 @@ router.get('/users', function(req, res, next) {
 router.get('/detail', function(req, res, next) {
   res.send('detail');
 });
-router.get('/bucketlist', function(req, res, next) {
+/* router.get('/bucketlist', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
-	res.sendFile(__dirname + '/Bucketlist.html');
+	res.sendFile(__dirname + '/bucketlist.html');
+	//router.get('/', bucketlist.view);
 	//res.render('layout');
-});
+}); */
+router.get('/bucketlist', bucketlist.view);
 
 router.get('/', function(req, res, next) {
 
