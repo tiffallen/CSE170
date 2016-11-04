@@ -1,12 +1,12 @@
 <!document html>
 <html>
 <head> 
-	<title>Explore Category Selected</title>
+	<title>Memories</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link href="stylesheets/bootstrap.min.css" rel="stylesheet"/>
 	<link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet"/>
-	<link href="stylesheets/home.css" rel="stylesheet"/>
+	<link href="stylesheets/memories.css" rel="stylesheet"/>
 	
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 	
@@ -18,7 +18,7 @@
 <body>
 	<div class = "jumbotron app-name page-header">
 		<div class = "container1" >
-			<h1> Just Go </h1>
+			<h1> Memories </h1>
 		</div>
 	</div>
 	
@@ -27,16 +27,28 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse  container1">
 				<div class="nav navbar-nav navigation">
-					<!--<li class  = "col-xs-3"> <a href ="home" > Back </a> </li>
-					Don't need a back button	-->
-					<li class  = "col-xs-12 text-center" >
+					<li class  = "col-xs-3"> <a href ="home" > Back </a> </li>
+
+					<li class  = "col-xs-6 text-center" >
 						<form class="navbar-form nav-center">
 						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Search">
+							<input type="text" class="form-control" placeholder="Search my Memories">
 						</div>
-						<button type="submit" class="btn btn-secondary" href="home">Search </button>
+						<button type="submit" class="btn btn-secondary">Search </button>
 						</form>
 					</li>
+					<li class  = "col-xs-3 .col-md-offset-3"\ >
+						<ul class = "nav navbar-nav">
+							<li> <a href = "newMemory"> New Memory Event</a> </li>
+						</ul>
+					</li>
+					<!-- 
+					<li class  = "col-xs-3 .col-md-offset-3"\ >
+						<ul class = "nav navbar-nav">
+							<li> <a href = "newMemCategory"> New Memory Folder</a> </li>
+						</ul>
+					</li>
+					-->
 					<li class  = "col-xs-3 .col-md-offset-3"\ >
 						
 					</li>
@@ -46,49 +58,24 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
-
+	
 	<!-- WHERE THE PICTURES START -->
-	<div class = "picturebody container " style = "margin-top: 10px;">
-			<div class = "col-xs-2 col-md-2" > </div>
-			<div class = "col-xs-4 col-md-4" >
+	<div class = "picturebody container" style = "margin-top: 10px;">
+		<div class = "row">
+			<div class = "col-xs-6 col-md-6" >
 				<div class = "thumbnail img-thumbnail  module mid" style="background: 
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
       					rgba(0, 0, 0, 0.3)),
-     				url(https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg);
+     				url(https://65.media.tumblr.com/641113340eef1a9a937070f9c415976f/tumblr_myhqkw7BlM1qfthy3o1_500.jpg);
      				background-size: cover">
 					<div class = "caption text-center">
-						<h4> Amusement Parks </h4>
+						<h4> Zoo </h4>
 					</div>
 				</div>
 			</div>
-			<div class = "col-xs-4 col-md-4">
-					<br><br>
-					<h4> Category: </h4> <h2> Amusement Parks </h2>
-			</div>
-	</div>
-
-	<br> <hr size="20"> <br>
-
-	<div class = "picturebody container " style = "margin-top: 10px;">
-			<h1 class="text-center" style="font-family: 'Shadows Into Light', cursive;"> Suggestions </h1>
 			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand">
-				<div class = "thumbnail img-thumbnail  module mid" style="background: 
-    				linear-gradient(
-      					rgba(0, 0, 0, 0.3),
-      					rgba(0, 0, 0, 0.3)),
-     				url(https://files.graphiq.com/216/media/images/Knotts_Berry_Farm_2735401.jpg);
-     				background-size: cover" >
-					<div class = "caption text-center">
-						<h4> Knott's Berry Farm </h4>
-					</div>
-				</div> 
-				</a>
-			</div>
-			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand">
-				<div class = "thumbnail img-thumbnail  module mid" style="background: 
+				<div class = "thumbnail img-thumbnail module mid" style="background: 
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
       					rgba(0, 0, 0, 0.3)),
@@ -96,65 +83,61 @@
      				background-size: cover">
 					<div class = "caption text-center">
 						<h4> Belmont Park </h4>
-					</div> 
-				</div> </a>
-			</div>
-			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand">
-				<div class = "thumbnail img-thumbnail  module mid" style="background: 
-    				linear-gradient(
-      					rgba(0, 0, 0, 0.3),
-      					rgba(0, 0, 0, 0.3)),
-     				url(http://www.universalstudioshollywood.com/site-content/uploads/2011/10/15-ONL-17587-WWoHP-NODATE_Dynamic-Lead-Homepage_961x541_C1.jpg);
-     				background-size: cover">
-					<div class = "caption text-center">
-						<h4> Universal Studios </h4>
-					</div>
-				</div> </a>
-			</div>
-			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand">
-				<div class = "thumbnail img-thumbnail  module mid" style="background: 
-    				linear-gradient(
-      					rgba(0, 0, 0, 0.3),
-      					rgba(0, 0, 0, 0.3)),
-     				url(https://cache7.undercovertourist.com/media_file/seaworld-orlando-10501.jpg);
-     				background-size: cover">
-					<div class = "caption text-center">
-						<h4> Sea World </h4>
-					</div>
-				</div> </a>
-			</div>
-			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand">
-				<div class = "thumbnail img-thumbnail  module mid" style="background: 
-    				linear-gradient(
-      					rgba(0, 0, 0, 0.3),
-      					rgba(0, 0, 0, 0.3)),
-     				url(http://www.laubergedelmar.com/images/mcc/scrapbook/1371067019Fair%202.jpg);
-     				background-size: cover">
-					<div class = "caption text-center">
-						<h4> Del Mar Fair </h4>
-					</div>
-				</div> </a>
-			</div>
-			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand">
-				<div class = "thumbnail img-thumbnail  module mid" style="background: 
-    				linear-gradient(
-      					rgba(0, 0, 0, 0.3),
-      					rgba(0, 0, 0, 0.3)),
-     				url(http://www.llfblog.com/wp-content/uploads/2016/01/2016.01.26_LEGOLANDFLORIDA_LEGOMOVIE4D_026.jpg);
-     				background-size: cover">
-					<div class = "caption text-center">
-						<h4> Legoland </h4>
 					</div>
 				</div>
-				 </a>
-			</div> 
-			
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid" style="background: 
+    				linear-gradient(
+      					rgba(0, 0, 0, 0.3),
+      					rgba(0, 0, 0, 0.3)),
+     				url(http://www.streetdeal.my/images/deals/976071221327762.png);
+     				background-size: cover">
+					<div class = "caption text-center">
+						<h4> Escape Room: Harvest Motel </h4>
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid" style="background: 
+    				linear-gradient(
+      					rgba(0, 0, 0, 0.3),
+      					rgba(0, 0, 0, 0.3)),
+     				url(http://media.discoversd.com/discover/images/OriginalImages/Blog/hauntedhotel1-26Sep2013040306860626_r620x349.jpg?75d51d0aea2efce5189afce216053cbc530c46a8);
+     				background-size: cover">
+					<div class = "caption text-center">
+						<h4> Haunted Trails  </h4>
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid" style="background: 
+    				linear-gradient(
+      					rgba(0, 0, 0, 0.3),
+      					rgba(0, 0, 0, 0.3)),
+     				url(https://s3-media3.fl.yelpcdn.com/bphoto/Hpdo9xmK7BT7uYjFnLPQ-A/o.jpg);
+     				background-size: cover">
+					<div class = "caption text-center">
+						<h4> Up2You </h4>
+					</div>
+				</div>
+			</div>
+			<div class = "col-xs-6 col-md-6" >
+				<div class = "thumbnail img-thumbnail module mid" style="background: 
+    				linear-gradient(
+      					rgba(0, 0, 0, 0.3),
+      					rgba(0, 0, 0, 0.3)),
+     				url(https://66.media.tumblr.com/9e638b7cdcad7c6b5e415d1188f1cb9b/tumblr_n3aepev8T51s1vxdco1_500.jpg",
+);
+     				background-size: cover">
+					<div class = "caption text-center">
+						<h4> Kayaking </h4>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
+	
 	<!-- 	FOOTER 		-->
 	<nav class = "footer nav navbar-default" >
 		<div class = "container-fluid container2">

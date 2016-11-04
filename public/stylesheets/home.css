@@ -19,12 +19,12 @@ html {
 .container1 {
     display: flex;
     justify-content: center;
+        color: white;
 }
 .container2 {
     display: flex;
     justify-content: center;
     background-color: #BEBEBE;
-    color: white;
 }
 
 .jumbotron {
