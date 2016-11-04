@@ -85,13 +85,13 @@ h1 {
     ),
     url(https://65.media.tumblr.com/a32a263e3cd5d1b7415337abe19ccf7d/tumblr_og11gvKznQ1uq521lo1_500.jpg);
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 70%;
+    height: 55%;
     min-height: 10%;
     min-width: 10%;
     float: left;
     position: relative;
-    margin: auto;
+    margin-bottom: 5%;
 }
 
 .mid h4 {
