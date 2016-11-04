@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var multer = require('multer');
 var upload = multer({ dest: 'public/uploads/' })
+var data = require('../data.json')
 
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
