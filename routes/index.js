@@ -50,6 +50,12 @@ router.get('/newMemory', function(req, res, next) {
 	res.sendFile(__dirname + '/newMemories.html');
 	//res.render('layout');
 });
+router.get('/pmemories', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/postsubmitMemories.html');
+	//res.render('layout');
+});
 
 router.get('/newBucketlist', function(req, res, next) {
 
