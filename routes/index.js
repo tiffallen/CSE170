@@ -83,4 +83,11 @@ router.get('/memoriesExpand', function(req, res, next) {
 	 //res.render('index', {category: 'Halloween'});
 });
 
+router.get('/bucketExpand', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/bucketexpand.html');
+	 //res.render('index', {category: 'Halloween'});
+});
+
 module.exports = router;
