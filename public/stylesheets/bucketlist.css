@@ -24,7 +24,11 @@ html {
 .container1 {
 	display: flex;
 	justify-content: center;
-	background-color: #e7e7e7;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: #BEBEBE;
 }
 
 .jumbotron {
@@ -65,9 +69,12 @@ html {
 }
 
 .page-header {
-	margin-bottom : 0;
-	background-color: #e7e7e7;
-	
+	color: white;
+    margin-bottom : 0;
+    opacity: .89;
+    background: 
+      url(http://67.media.tumblr.com/1102214e8c0b732c2afa4b38944ca72c/tumblr_odd5mlNXtw1uvpnq9o3_1280.jpg);
+      background-color: #e7e7e7;   
 }
 
 h1 {
@@ -78,18 +85,17 @@ h1 {
 .module {
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
     ),
-    url(http://66.media.tumblr.com/5ff1c69c5b4798b1adec771ab21b7440/tumblr_og0qoh4A9X1vvoygzo1_500.jpg);
+    url(https://66.media.tumblr.com/e95961696bb79f01013bda678452bce9/tumblr_og0o4cf8BT1rsezm9o1_1280.jpg);
     background-size: cover;
-    width: 70%;
-    height: 55%;
+    width: 150%;
+    height: 50%;
     min-height: 10%;
     min-width: 10%;
     float: left;
     position: relative;
-    margin-bottom: 5%;
 }
 
 .mid h4 {

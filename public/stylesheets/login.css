@@ -8,6 +8,7 @@ body {
     background-color: white;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
+    color: white;
 }
 
 html {
@@ -19,7 +20,6 @@ html {
 .container1 {
     display: flex;
     justify-content: center;
-    background-color: #e7e7e7;
 }
 
 .jumbotron {
@@ -61,8 +61,12 @@ html {
 }
 
 .page-header {
-    margin-bottom : 0;
-    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10%;
+    background: 
+      url(http://67.media.tumblr.com/1102214e8c0b732c2afa4b38944ca72c/tumblr_odd5mlNXtw1uvpnq9o3_1280.jpg);
+      background-color: #e7e7e7;
     
 }
 

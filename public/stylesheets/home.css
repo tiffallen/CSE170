@@ -8,6 +8,7 @@ body {
     background-color: white;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
+    color: white;
 }
 
 html {
@@ -19,7 +20,11 @@ html {
 .container1 {
     display: flex;
     justify-content: center;
-    background-color: #e7e7e7;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: #BEBEBE;
 }
 
 .jumbotron {
@@ -37,7 +42,8 @@ html {
 }
 
 .thumbnail {
-    margin: 15px 15px 15px 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .picture-body{
@@ -62,8 +68,10 @@ html {
 
 .page-header {
     margin-bottom : 0;
-    background-color: #e7e7e7;
-    
+    opacity: .89;
+    background: 
+      url(http://67.media.tumblr.com/1102214e8c0b732c2afa4b38944ca72c/tumblr_odd5mlNXtw1uvpnq9o3_1280.jpg);
+      background-color: #e7e7e7;   
 }
 
 h1 {
@@ -75,29 +83,28 @@ h1 {
 .module {
   background: 
     linear-gradient(
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6)
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
     ),
     url(https://66.media.tumblr.com/e95961696bb79f01013bda678452bce9/tumblr_og0o4cf8BT1rsezm9o1_1280.jpg);
     background-size: cover;
-    width: 70%;
-    height: 55%;
+    width: 150%;
+    height: 50%;
     min-height: 10%;
     min-width: 10%;
     float: left;
     position: relative;
-    margin-bottom: 5%;
 }
 
 .mid h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 300%;
+  font-size: 200%;
   color: white;
   text-transform: uppercase;
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 2rp;
+  font-size: 1em;
   transform: translate(-50%, -50%);
 }
