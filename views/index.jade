@@ -1,5 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1= category
+  p Welcome to !{category}
+
+section#myhomepage
+    - each item in myhomepage
+      article(class="myhomepage")
+        header
+          h2 #{item.category}
+        a !{item.categorypic}

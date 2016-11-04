@@ -58,4 +58,13 @@ router.get('/newBucketlist', function(req, res, next) {
 	//res.render('layout');
 });
 
+
+
+router.get('/homeExpand', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/homexpand.html');
+	 //res.render('index', {category: 'Halloween'});
+});
+
 module.exports = router;
