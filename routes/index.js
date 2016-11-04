@@ -25,7 +25,7 @@ router.get('/bucketlist', function(req, res, next) {
 router.get('/', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
-	res.sendFile(__dirname + '/home.html');
+	res.sendFile(__dirname + '/login.html');
 	//res.render('layout');
 });
 
