@@ -5,6 +5,7 @@ var upload = multer({ dest: 'public/uploads/' });
 var data = require('../data.json');
 
 var bucketlist = require('../public/javascripts/bucketlist');
+var memories = require('../public/javascripts/memories');
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
   res.render('index', { title: 'Just Go' });
@@ -25,6 +26,7 @@ router.get('/detail', function(req, res, next) {
 	//res.render('layout');
 }); */
 router.get('/bucketlist', bucketlist.view);
+router.get('/memories', memories.view)
 
 router.get('/', function(req, res, next) {
 
@@ -40,13 +42,13 @@ router.get('/home', function(req, res, next) {
 	//res.render('layout');
 });
 
-router.get('/memories', function(req, res, next) {
+/* router.get('/memories', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/memories.html');
 	//res.render('layout');
 
-});
+}); */
 router.get('/newMemory', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
