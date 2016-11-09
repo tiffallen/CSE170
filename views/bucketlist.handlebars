@@ -1,4 +1,4 @@
-<!document html>
+.<!document html>
 <html>
 <head> 
 	<title>MyBucketlist</title>
@@ -72,7 +72,10 @@
 	<div class = "picturebody container" style = "margin-top: 10px;">
 		<div class = "row">
 			{{#each mybucketlist}}
+			{{#if delete}}
+			{{else}}
 			<div class = "col-xs-6 col-md-6" >
+				<a href = "#'{{adventurename}}'">
 				<div class = "thumbnail img-thumbnail module mid" style="background: 
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
@@ -83,7 +86,9 @@
 						<h4> {{adventurename}} </h4>
 					</div>
 				</div>
+				</a>
 			</div>
+			{{/if}}
 			{{/each}}
 		</div>
 	</div>

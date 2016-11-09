@@ -1,30 +1,35 @@
 {
   "mybucketlist": [
     {
-      "adventurename": "Paintball",
+	  "delete": 0,
+      "adventurename": "Paintball!",
       "category": "Outdoors",
       "locationideas": "SD",
       "adventurepics": "http://letsbangbang.com/wp-content/uploads/2013/08/Paintball-Photos.jpg"
     },
     {
+	   "delete": 0,
       "adventurename": "Ride a Mechanical Bull",
       "category": "Nightlife",
       "locationideas": "SD",
       "adventurepics": "http://theminnericks.com/wp-content/uploads/2012/10/mechancial-bull-ride-circle-r-ranch-wedding-reception-flower-mound-texas-04.jpg"
     },
     {
+	 "delete": 1,
       "adventurename": "Drive in movie",
       "category": "Outdoors",
       "locationideas": "SD",
       "adventurepics": "http://loneoakfbcstudents.org/wp-content/uploads/2015/05/drive-in-inside-out-1024x766.png"
     },
     {
+	 "delete": 1,
       "adventurename": "Sunrise Yoga",
       "category": "Outdoors",
       "locationideas": "SD",
       "adventurepics": "https://sites.utexas.edu/wellness/files/2016/03/sunrise-yoga.jpg"
     },
     {
+	 "delete": 1,
       "adventurename": "Stargaze",
       "category": "Outdoors",
       "locationideas": "SD",
@@ -32,6 +37,7 @@
     },
 	
 	{
+	 "delete": 1,
 	  "adventurename": "Be Awesome!!",
 	  "category" : "All the Time",
 	  "locationideas" : "SD",
