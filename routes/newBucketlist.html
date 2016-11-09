@@ -36,6 +36,7 @@
 	</nav>
 
 	<!-- Data entering starts here -->
+	<!--
 	<div class="newmemoriesdata container" style = "margin-top: 10px;">
 		<div class="col-xs-3 col-md-3 boxlabels"> </div>
 		<div class="col-xs-3 col-md-3 boxlabels text-center">
@@ -54,10 +55,41 @@
 		</div>
 
 		<div class="col-xs-12 col-md-12 text-center">
+<<<<<<< HEAD
 		<button type="submit" class="btn btn-secondary"><a href = "bucketlist">Submit </a></button>
+=======
+		<button type="submit" class="btn btn-secondary"><a href = "addEvent">Submit </a></button>
+	</div>
+	</div>
+			<button type="submit" class="btn btn-secondary">Submit </button>
+>>>>>>> 8f224a6a12ae3969301c05114b19ef502074ab36
 		</div>
 	
 	</div>
+	-->
+
+	<form id="addEventForm" role="form" method="get" action="/addEvent">
+		<div class="col-xs-3 col-md-3 boxlabels"> </div>
+		<div class="col-xs-3 col-md-3 boxlabels text-center">
+			<div class="form-group">
+				<label for="tripname">Adventure Name:</label>
+					<input type="text" name="tripname">
+			</div>
+			<div class="form-group">
+	     		<label for="category">Category:</label>
+	     		<input type="text" name = "category">
+	    	</div>
+	    	<div class="form-group">
+	     		<label for="location">Possible Locations:</label>
+	     		<input type="text" name = "locationideas">
+	     	</div>
+	     	<div class="col-xs-12 col-md-12 text-center">
+				<input type="submit" id="submitBtn" class="btn btn-default" value="Submit"></input>
+			</div>
+		</div>
+		</div>
+		</div>
+	</form>
 
 
 
@@ -69,6 +101,7 @@
 			<li> <a href = "bucketlist" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span> </a> </li>
 		</div>
 	</nav>
-
+</div>
 </body>
 </html>
+</div>
