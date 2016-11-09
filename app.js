@@ -9,6 +9,7 @@ var handlebars = require('express3-handlebars')
 
 
 var routes = require('./routes/index');
+var addEvent = require('./routes/addEvent');
 var users = require('./routes/users');
 var bucketlist = require('./public/javascripts/bucketlist');
 
@@ -37,6 +38,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+
+app.get('/addEvent', addEvent.addEvent);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
