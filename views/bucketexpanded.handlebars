@@ -1,4 +1,4 @@
-<!document html>
+.<!document html>
 <html>
 <head> 
 	<title>Explore Category Selected</title>
@@ -12,13 +12,14 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/public/stylesheets/bootstrap.min.js"></script>
+	<script src="../public/javascripts/bucketlist.js"></script>
 	
 </head>
 
 <body>
 	<div class = "jumbotron app-name page-header">
 		<div class = "container1" >
-			<h1> Bucket List Static</h1>
+			<h1> Bucket List Expanded Handlebar </h1>
 		</div>
 	</div>
 	
@@ -42,6 +43,9 @@
 	</nav>
 
 	<!-- WHERE THE PICTURES START -->
+	{{#each mybucketlist}}
+	{{#if selected}}
+	{{else}}
 	<div class = "picturebody container " style = "margin-top: 10px;">
 			<div class = "col-xs-3 col-md-3" > </div>
 			<div class = "col-xs-6 col-md-6" >
@@ -49,10 +53,10 @@
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
       					rgba(0, 0, 0, 0.3)),
-     				url(http://letsbangbang.com/wp-content/uploads/2013/08/Paintball-Photos.jpg);
+     				url({{adventurepics}});
      				background-size: cover">
 					<div class = "caption text-center">
-						<h4> Paintball </h4>
+						<h4> {{adventurename}} </h4>
 					</div>
 				</div>
 			</div>
@@ -60,6 +64,8 @@
 					<br><br>
 			</div> 
 	</div>
+	{{/if}}
+	{{/each}}
 
 	<hr size="20">
 

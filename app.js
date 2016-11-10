@@ -1,6 +1,6 @@
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
+//var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
@@ -11,7 +11,8 @@ var handlebars = require('express3-handlebars')
 var routes = require('./routes/index');
 var addEvent = require('./routes/addEvent');
 var users = require('./routes/users');
-var bucketlist = require('./public/javascripts/bucketlist');
+//var bucketlist = require('./public/javascripts/bucketlist');
+//var bucketlistexpanded = require('./public/javascripts/bucketlistexpanded');
 
 var app = express();
 
