@@ -10,4 +10,5 @@ exports.addEvent = function(req, res) {
 	data.mybucketlist.push(newEvent);
 	console.log(newEvent);
 	console.log("yay, addEvent just ran!");
+	window.location.href = "http://facebook.com";
 }
