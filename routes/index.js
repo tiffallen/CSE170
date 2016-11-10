@@ -6,6 +6,9 @@ var data = require('../data.json');
 
 var bucketlist = require('../public/javascripts/bucketlist');
 var memories = require('../public/javascripts/memories');
+var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
+var home = require('../public/javascripts/home');
+
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
   res.render('index', { title: 'Just Go' });
@@ -26,7 +29,9 @@ router.get('/detail', function(req, res, next) {
 	//res.render('layout');
 }); */
 router.get('/bucketlist', bucketlist.view);
-router.get('/memories', memories.view)
+router.get('/memories', memories.view);
+router.get('/bucketExpanded', bucketlistexpanded.view);
+router.get('/home', home.view);
 
 router.get('/', function(req, res, next) {
 
@@ -35,12 +40,12 @@ router.get('/', function(req, res, next) {
 	//res.render('layout');
 });
 
-router.get('/home', function(req, res, next) {
+/* router.get('/home', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/home.html');
 	//res.render('layout');
-});
+}); */
 
 /* router.get('/memories', function(req, res, next) {
 
@@ -85,11 +90,11 @@ router.get('/memoriesExpand', function(req, res, next) {
 	 //res.render('index', {category: 'Halloween'});
 });
 
-router.get('/bucketExpanded', function(req, res, next) {
+/* router.get('/bucketExpanded', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/bucketexpanded.html');
 	 //res.render('index', {category: 'Halloween'});
-});
+}); */
 
 module.exports = router;
