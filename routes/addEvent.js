@@ -2,7 +2,8 @@ var data = require("../bucketdata.json");
 
 exports.addEvent = function(req, res) {
 	// Your code goes here
-	var tripname = req.query.tripname; 
+	//var tripname = req.query.tripname; 
+	var tripname = "hello";
 	var category = req.query.category; 
 	var location = req.query.locationideas;
 	var img = "http://lorempixel.com/400/400/people";
