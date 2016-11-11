@@ -8,6 +8,7 @@ var bucketlist = require('../public/javascripts/bucketlist');
 var memories = require('../public/javascripts/memories');
 var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
 var home = require('../public/javascripts/home');
+var homexpanded = require('../public/javascripts/homexpanded');
 
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
@@ -32,6 +33,7 @@ router.get('/bucketlist', bucketlist.view);
 router.get('/memories', memories.view);
 router.get('/bucketExpanded', bucketlistexpanded.view);
 router.get('/home', home.view);
+router.get('/homeExpanded', homexpanded.view)
 
 router.get('/', function(req, res, next) {
 
@@ -80,6 +82,13 @@ router.get('/homeExpand', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/homexpand.html');
+	 //res.render('index', {category: 'Halloween'});
+});
+
+router.get('/homeEvent', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/homeevent.html');
 	 //res.render('index', {category: 'Halloween'});
 });
 

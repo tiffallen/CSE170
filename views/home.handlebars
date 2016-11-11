@@ -50,8 +50,8 @@
 	<!-- WHERE THE PICTURES START -->
 	<div class = "picturebody container " style = "margin-top: 10px;">
 			{{#each myhomepage}}
+			<a href="homeExpand" >
 			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand">
 				<div class = "thumbnail img-thumbnail  module mid" style="background: 
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
@@ -62,9 +62,10 @@
 						<h4> {{category}} </h4>
 					</div>
 				</div> 
-				</a>
+				<button id="homeExpanded{{@index}}">{{category}}</button>
 			</div>
 			{{/each}}
+		</a>
 			
 	</div>
 	<!-- 	FOOTER 		-->
@@ -75,6 +76,6 @@
 			<li> <a href = "bucketlist" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span> </a> </li>
 		</div>
 	</nav>
-
+	<script src="javascripts/home_interaction.js"></script>
 </body>
 </html>
