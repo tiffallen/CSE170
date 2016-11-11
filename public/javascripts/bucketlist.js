@@ -10,7 +10,7 @@ function initializePage(){
 
 function select(){
 	alert($(this).attr("id"));
-	$.getJSON('bucketdata.json', function(response){
+	$.get("/bucketdata", function(response){
 		var name = $(this).closest('.project').attr('id');
 		for(var k = 0; k < response.length; ++k){
 			if(name == data[0][k]['adventurename']){
@@ -19,7 +19,7 @@ function select(){
 				data[0][k]['selected'] = 1;
 			}
 		}
-		$.post('/javascripts/bucketlist', response, function(){
+		$.post('/javascripts/bucketlist.js', response, function(){
 			alert("Object saved");
 		});
 	});
