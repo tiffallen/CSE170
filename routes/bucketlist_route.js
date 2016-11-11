@@ -7,6 +7,6 @@ exports.view = function (req, res){
 }
 
 exports.projectInfo = function(req, res) {
-  res.json(bucket_expand); // send JSON back to browser
+  res.json(data); // send JSON back to browser
   console.log("IN PROJECT INFO");
 }

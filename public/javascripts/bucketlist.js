@@ -23,6 +23,7 @@ function select(){
 			alert("Object saved");
 		});
 	});
+	//location.href = "bucket_expand";
 }
 
 
