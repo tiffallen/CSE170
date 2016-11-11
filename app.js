@@ -47,7 +47,7 @@ app.get('/addEvent', addEvent.addEvent);
 app.get('/addMemory', addMemory.addMemory);
 app.get('/bucketlist', bucketlist.view);
 app.get('/bucketlist/:id', bucketlist.projectInfo)
-//app.get('/bucketlist/bucket_expand', bucketlist_expanded.projectInfo);
+app.get('/bucketlist/bucket_expand', bucketlist.projectInfo);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
