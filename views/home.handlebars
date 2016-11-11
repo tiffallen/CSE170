@@ -40,18 +40,19 @@
 					<li class  = "col-xs-3 .col-md-offset-3"\ >
 						
 					</li>
-				</div>
-				
-				
+				</div>			
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
 
+	<div class="col-xs-12 col-md-12">
+
 	<!-- WHERE THE PICTURES START -->
-	<div class = "picturebody container " style = "margin-top: 10px;">
+	<div class = "picturebody container" style = "margin-top: 10px;">
 			{{#each myhomepage}}
-			<a href="homeExpand" >
+
 			<div class = "col-xs-6 col-md-6" >
+				<a href="homeExpand" >
 				<div class = "thumbnail img-thumbnail  module mid" style="background: 
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
@@ -62,11 +63,13 @@
 						<h4> {{category}} </h4>
 					</div>
 				</div> 
-				<button id="homeExpanded{{@index}}">{{category}}</button>
+				<!-- <button id="homeExpanded{{@index}}">{{category}}</button> -->
+				</a>
 			</div>
 			{{/each}}
-		</a>
 			
+	</div>
+
 	</div>
 	<!-- 	FOOTER 		-->
 	<nav class = "footer nav navbar-default" >
