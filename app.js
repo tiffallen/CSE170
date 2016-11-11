@@ -13,7 +13,7 @@ var addEvent = require('./routes/addEvent');
 var addMemory = require('./routes/addMemory');
 var users = require('./routes/users');
 var bucketlist = require('./routes/bucketlist_route');
-var bucketlist_expanded = require('./routes/bucket_get_json');
+//var bucketlist_expanded = require('./routes/bucket_get_json');
 //var bucketlistexpanded = require('./public/javascripts/bucketlistexpanded');
 
 var app = express();
@@ -46,7 +46,7 @@ app.use('/users', users);
 app.get('/addEvent', addEvent.addEvent);
 app.get('/addMemory', addMemory.addMemory);
 app.get('/bucketlist', bucketlist.view);
-app.get('/bucketlist/:id', bucketlist_expanded.projectInfo)
+app.get('/bucketlist/:id', bucketlist.projectInfo)
 //app.get('/bucketlist/bucket_expand', bucketlist_expanded.projectInfo);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
