@@ -8,19 +8,16 @@
 	<link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet"/>
 	<link href="stylesheets/bucketlist.css" rel="stylesheet"/>
 	
-	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 
 	<!-- <script src = "javascript/memories.js"> </script> -->
 	
-	<script src="js/bootstrap/bootstrap-dropdown.js"></script>
-	<script src="content/js/jquery.min.js"></script>
-	<script src="content/js/bootstrap.min.js"></script> 
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/public/stylesheets/bootstrap.min.js"></script>
-	<script src="../public/javascripts/bucketlist.js"></script>
+	<!-- <script src="js/bootstrap/bootstrap-dropdown.js"></script> -->
+	<script src="javascripts/jquery-1.11.0.js"></script>
+	<script src="javascripts/bucketlist.js"></script>
 
+	<script src="javascripts/bootstrap.min.js"></script> 
+	
 	
 </head>
 
@@ -72,14 +69,13 @@
 	</nav>
 	
 	<!-- WHERE THE PICTURES START -->
-	<div class = "picturebody container" style = "margin-top: 10px;">
+	<div class = "picturebody container" style = "margin-top: 10px;" action="/selectEvent">
 		<div class = "row">
 			{{#each mybucketlist}}
 			{{#if delete}}
 			{{else}}
 			<div class = "col-xs-6 col-md-6" >
-				<!-- <a onclick='select({{adventurename}})' href = "bucketExpanded"> -->
-				<a href = "#" id = "select">
+				<a class="select" id="{{adventurename}}">
 					<div class = "thumbnail img-thumbnail module mid" style="background: 
 						linear-gradient(
 							rgba(0, 0, 0, 0.3),
@@ -87,7 +83,7 @@
 						url({{adventurepics}});
 						background-size: cover">
 						<div class = "caption text-center">
-							<h4> {{adventurename}} </h4>
+							<h4> <label for="name">{{adventurename}} </label></h4>
 						</div>
 					</div>
 				</a>

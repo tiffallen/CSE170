@@ -12,7 +12,8 @@ var routes = require('./routes/index');
 var addEvent = require('./routes/addEvent');
 var addMemory = require('./routes/addMemory');
 var users = require('./routes/users');
-//var bucketlist = require('./public/javascripts/bucketlist');
+var bucketlist = require('./routes/bucketlist_route');
+//var bucketlist_expanded = require('./routes/bucket_get_json');
 //var bucketlistexpanded = require('./public/javascripts/bucketlistexpanded');
 
 var app = express();
@@ -44,7 +45,9 @@ app.use('/users', users);
 
 app.get('/addEvent', addEvent.addEvent);
 app.get('/addMemory', addMemory.addMemory);
-
+app.get('/bucketlist', bucketlist.view);
+app.get('/bucketlist/:id', bucketlist.projectInfo)
+app.get('/bucketlist/bucket_expand', bucketlist.projectInfo);
 // catch 404 and forward to error handler
 /* app.use(function(req, res, next) {
   var err = new Error('Not Found');
@@ -59,7 +62,7 @@ app.get('/addMemory', addMemory.addMemory);
 
 // development error handler
 // will print stacktrace
-if (app.get('env') === 'development') {
+/* if (app.get('env') === 'development') {
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
@@ -67,17 +70,17 @@ if (app.get('env') === 'development') {
       error: err
     });
   });
-}
+} */
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function(err, req, res, next) {
+/* app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error', {
     message: err.message,
     error: {}
   });
-});
+}); */
 
 
 module.exports = app;
