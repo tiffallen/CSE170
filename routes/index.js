@@ -4,9 +4,10 @@ var multer = require('multer');
 var upload = multer({ dest: 'public/uploads/' });
 var data = require('../data.json');
 
-var bucketlist = require('../public/javascripts/bucketlist');
+//var bucketlist = require('./bucketlist_route');
+//var bucketlist_expanded = require('./bucketlist_get_json');
 var memories = require('../public/javascripts/memories');
-var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
+//var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
 var home = require('../public/javascripts/home');
 
 /* GET home page. */
@@ -28,9 +29,9 @@ router.get('/detail', function(req, res, next) {
 	//router.get('/', bucketlist.view);
 	//res.render('layout');
 }); */
-router.get('/bucketlist', bucketlist.view);
+//router.get('/bucketlist', bucketlist.view);
 router.get('/memories', memories.view);
-router.get('/bucketExpanded', bucketlistexpanded.view);
+//router.get('/bucketExpanded', bucketlistexpanded.view);
 router.get('/home', home.view);
 
 router.get('/', function(req, res, next) {

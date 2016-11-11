@@ -1,29 +1,56 @@
-//script.src = 'content/js/jquery.min.js';
+'use strict';
 
-var data = require('../../bucketdata.json');
+$(document).ready(function(){
+	initializePage();
+})
 
-exports.view = function (req, res){
-	console.log(data);
-	res.render('bucketlist', data);
-	console.log('IN BUCKETLIST.JS');
+function initializePage(){
+	$(".select").click(select);
 }
 
-function select(name){
+function select(){
+	alert($(this).attr("id"));
+	$.getJSON('bucketdata.json', function(response){
+		var name = $(this).closest('.project').attr('id');
+		for(var k = 0; k < response.length; ++k){
+			if(name == data[0][k]['adventurename']){
+				data[0][k]['selected'] = 0;
+			} else {
+				data[0][k]['selected'] = 1;
+			}
+		}
+		$.post('/javascripts/bucketlist', response, function(){
+			alert("Object saved");
+		});
+	});
+}
+
+
+ /* $(document).ready(function(){
+	console.log('ready');
+	function select(){
+	console.log('BLAH');
+	//console.log('TRYING TO SELECT EVENT: ' + name);
 	for(var k = 0; k < data.length; ++k){
 		if(name == data[k]['adventurename']){
-			data[k]['selected'] = 0;
+			//data[k]['selected'] = 0;
+			data[k]['selected'] = 1;
 		}
 		else {
-			data[k]['selected']  = 1;
+			//data[k]['selected']  = 1;
+			data[k]['selected'] = 0;
 		}
 		console.log('Trying to select event: ' + name);
 	}
+	//console.log(data);
+	console.log('IN SELECT');
 	location.href = "bucketExpanded" ;
-}
+	}
 
-/* $("#select").click(function(){
-	alert("CLICKED");
-});  */
+
+$(".select").click(function(){
+	alert($(this).attr("id"));
+});  
 
 function deleteEvent(name){
 	for(var k = 0; k < data.length; ++k){
@@ -31,4 +58,7 @@ function deleteEvent(name){
 			data[k]['delete'] = 1;
 		}
 	}
-}
+}  */
+	
+	
+//});
