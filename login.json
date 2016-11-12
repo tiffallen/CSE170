@@ -1,0 +1,12 @@
+{
+  "mylogin": [
+    {
+      "username": "username",
+      "password": "password",
+    },
+    {
+      "username": "marieuser",
+      "password": "mariepassword",
+    }
+  ]
+}
