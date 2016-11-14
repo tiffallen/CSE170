@@ -1,9 +1,7 @@
 var data = require("../bucketdata.json");
 
 exports.addEvent = function(req, res) {
-	// Your code goes here
-	//var tripname = req.query.tripname; 
-	var tripname = "hello";
+	var tripname = req.query.tripname; 
 	var category = req.query.category; 
 	var location = req.query.locationideas;
 	var img = "http://lorempixel.com/400/400/people";
@@ -11,6 +9,6 @@ exports.addEvent = function(req, res) {
 	data.mybucketlist.push(newEvent);
 	console.log(newEvent);
 	console.log("yay, addEvent just ran!");
-	//window.location.replace("/bucketlist");
+	return res.redirect("/bucketlist");
 }
 
