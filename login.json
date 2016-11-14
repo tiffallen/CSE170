@@ -1,12 +1,4 @@
-{
-  "mylogin": [
-    {
-      "username": "username",
-      "password": "password",
-    },
-    {
-      "username": "marieuser",
-      "password": "mariepassword",
-    }
-  ]
-}
+{"mylogin": [
+    {"username": "marie","password": "meow"},
+    {"username": "username","password": "password"}
+]}
