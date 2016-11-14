@@ -43,6 +43,13 @@ router.get('/', function(req, res, next) {
 	//res.render('layout');
 });
 
+router.get('/newUser', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/newUser.html');
+	//res.render('layout');
+});
+
 /* router.get('/home', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
