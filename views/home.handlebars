@@ -52,7 +52,7 @@
 			{{#each myhomepage}}
 
 			<div class = "col-xs-6 col-md-6" >
-				<a href="homeExpand" >
+				<a id="homeExpanded{{@index}}" >
 				<div class = "thumbnail img-thumbnail  module mid" style="background: 
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
@@ -63,8 +63,8 @@
 						<h4> {{category}} </h4>
 					</div>
 				</div> 
-				<!-- <button id="homeExpanded{{@index}}">{{category}}</button> -->
 				</a>
+
 			</div>
 			{{/each}}
 			

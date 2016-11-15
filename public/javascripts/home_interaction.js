@@ -12,4 +12,27 @@ function initialize() {
 
 		window.location.href = '/homeExpanded?buttonID=0';
 	});
+
+	$(button + '1').click(function (e) {
+		console.log('second button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=1';
+	});
+
+	$(button + '2').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=2';
+	});
+	$(button + '3').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=3';
+	});
+	$(button + '4').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=4';
+	});
+
 }
