@@ -70,6 +70,14 @@
 			
 			<form id="addEventForm" role="form" method="get" action="/addEvent">
 	     		<div class="col-xs-12 col-md-12 text-center">
+
+	     		<div class="form-group">
+					<input type="hidden" name="adventurename" value="{{event}}">
+					<input type="hidden" name="category" value="{{category}}">
+					<input type="hidden" name="locationideas" value="{{event}}">
+					<input type="hidden" name="adventurepics" value="{{event_url}}">
+	     		</div>
+
 					<input type="submit" id="submitBtn" class="btn btn-default" value="Add to Bucketlist" onclick="location.href='/bucketlist'"></input>
 				</div>
 			</form> 
