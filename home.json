@@ -5,8 +5,16 @@
 			"category_url": "http://cdn.history.com/sites/2/2013/11/Halloween-Hero-1-A.jpeg",
 			"suggestions": [
 				{
-					"event": "x",
-					"event_url":"x"
+					"event": "Haunted Trails",
+					"event_url":"http://www.smartdestinations.com/blog/wp-content/uploads/2015/09/Haunted-Trail-Balboa-Park-San-Diego-600x400.jpg"
+				},
+				{
+					"event": "Escape Room SD: Harvest Motel",
+					"event_url":"https://i.ytimg.com/vi/rlAXytaONgk/hqdefault.jpg"
+				},
+				{
+					"event": "Haunted Hotel",
+					"event_url":"https://tribkswb.files.wordpress.com/2013/07/hauntedhotelthumb.jpg"
 				}
 			]
 		
@@ -16,8 +24,20 @@
 			"category_url": "https://66.media.tumblr.com/3c81f4ea9f545315077f5f8a773fe482/tumblr_ofh6bij9ZL1v5nhxeo1_500.jpg",
 			"suggestions": [
 				{
-					"event":"x",
-					"event_url":"x"
+					"event":"Up2You",
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/Hpdo9xmK7BT7uYjFnLPQ-A/o.jpg"
+				},
+				{
+					"event": "Donut Bar",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14099511_1138052822947059_649473158_n.jpg?ig_cache_key=MTMzMjk0NzQ5NzQ3MDk3MzE0MQ%3D%3D.2"
+				},
+				{
+					"event": "Cat Cafe",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14597258_404563976599347_6174353312947634176_n.jpg?ig_cache_key=MTM4MTQ0NTYxNzg1OTI3MjAwMA%3D%3D.2"
+				},
+				{
+					"event": "Cafe Hue",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14716531_1709237099393124_6328949389456834560_n.jpg?ig_cache_key=MTM3MTk0OTczMzA5ODgzMzQxNg%3D%3D.2"
 				}
 			]
 		
@@ -27,8 +47,43 @@
 			"category_url": "https://65.media.tumblr.com/286c21b4ce429ddfe76314884dbe9c16/tumblr_nz3hvaBYMu1s6taa7o1_500.jpg",
 			"suggestions": [
 				{
-					"event":"x",
-					"event_url":"x"
+					"event":"December Nights",
+					"event_url":"http://www.balboapark.org/sites/default/files/decnights_972.jpg"
+				},
+				{
+					"event": "Julian's Country Christmas and Tree Lighting",
+					"event_url":"http://cdn.sandiegouniontrib.com/img/photos/2012/11/24/hptreelighting326311x001_r620x413.jpg?67d6da46cf1438ad26b8015f732435a7128f8cdd"
+				},
+				{
+					"event": "North Park Toyland Parade",
+					"event_url":"http://www.picscristmas.com/wp-content/uploads/2015/10/82901223_8b729fdf8d_o.jpg"
+				}
+			]
+		
+		},
+		{
+			"category": "Brunch",
+			"category_url": "http://www.yotel.com/media/260457/new-brunch-banner_1340x536.jpg?width=1323px&height=529px",
+			"suggestions": [
+				{
+					"event":"Caroline's",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14659423_1719909814999315_3640325795173367808_n.jpg?ig_cache_key=MTM3NTUzMjQxODg2NTUyMjY2Mw%3D%3D.2"
+				},
+				{
+					"event": "Cody's",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15099337_1861822840698993_7066730380413370368_n.jpg?ig_cache_key=MTM4Mzc1NDc5NDk3MTM4NDI0Ng%3D%3D.2"
+				},
+				{
+					"event": "Bella Vista",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14099673_278216845904460_1487406267_n.jpg?ig_cache_key=MTMyODcxNzYxOTc4MzY0MTIzMw%3D%3D.2"
+				},
+				{
+					"event": "Cottage",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15034610_1855454934686258_2323506878262280192_n.jpg?ig_cache_key=MTM4MzA4OTcxNDQ0NTU0MjYwOA%3D%3D.2"
+				},
+				{
+					"event": "Breakfast Republic",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14624437_1624004171233849_5240895952742514688_n.jpg?ig_cache_key=MTM2ODI5MzMyMDM3NTQzMjM3OA%3D%3D.2"
 				}
 			]
 		
@@ -38,8 +93,20 @@
 			"category_url": "http://65.media.tumblr.com/a32a263e3cd5d1b7415337abe19ccf7d/tumblr_og11gvKznQ1uq521lo1_500.jpg",
 			"suggestions": [
 				{
-					"event":"x",
-					"event_url":"x"
+					"event":"La Jolla Shores",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/s750x750/sh0.08/e35/14592023_655101321334320_6647506439491289088_n.jpg?ig_cache_key=MTM4MTc0MDE1ODcxMzUwNzIwNw%3D%3D.2"
+				},
+				{
+					"event": "Potato Chip Rock",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14474443_559480540918036_7412720838266322944_n.jpg?ig_cache_key=MTM4MjI1MTEyNTcxMzI3NTQ3NA%3D%3D.2"
+				},
+				{
+					"event": "Ho Chi Minh",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15048232_1859411820947423_8305824721572724736_n.jpg?ig_cache_key=MTM4MTk0MzAzMjgxMTk5NzMxNg%3D%3D.2"
+				},
+				{
+					"event": "Bike & kayak",
+					"event_url":"https://img.grouponcdn.com/deal/ikce6CJ2aWPk7PqQKgPV/Ky-1800x1080.jpg/v1/c700x420.jpg"
 				}
 			]
 		
@@ -49,8 +116,16 @@
 			"category_url": "https://67.media.tumblr.com/b4c3d86dc6e7bab5aaedfb6b6e2131de/tumblr_np7snvbhb81t2kks8o1_500.gif",
 			"suggestions": [
 				{
-					"event":"x",
-					"event_url":"x"
+					"event":"Omnia",
+					"event_url":"http://www.trbimg.com/img-57b83502/turbine/sddsd-inside-look-omnia-san-diego-2015apr29"
+				},
+				{
+					"event": "Bassmnt",
+					"event_url":"http://jax.urvenue.com/imateq/uploads/1609083445/1450SC700/16035194.jpg"
+				},
+				{
+					"event": "Johnny V's",
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/RwumDrAHw3tpjD3_mnM3OQ/ls.jpg"
 				}
 			]
 		

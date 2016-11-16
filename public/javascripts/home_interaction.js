@@ -34,5 +34,9 @@ function initialize() {
 
 		window.location.href = '/homeExpanded?buttonID=4';
 	});
+	$(button + '5').click(function (e) {
+		console.log('third button clicked');
 
+		window.location.href = '/homeExpanded?buttonID=5';
+	});
 }
