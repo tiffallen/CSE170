@@ -16,9 +16,10 @@
 </head>
 
 <body>
-	<div class = "jumbotron app-name page-header header">
-		<h1> -- Just Go -- </h1>
-		<h3> :: Everyday Adventures :: </h3>
+	<div class = "jumbotron app-name page-header">
+		<div class = "container1" >
+			<h1> Just Go Handlebars</h1>
+		</div>
 	</div>
 	
 	<nav class="navbar navbar-default">
@@ -26,8 +27,8 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse  container1">
 				<div class="nav navbar-nav navigation">
-					<!--<li class  = "col-xs-3"> <a href ="home" > Back </a> </li>
-					Don't need a back button	-->
+					<li class  = "col-xs-3"> <a href ="home" > Back </a> </li>
+					
 					<li class  = "col-xs-12 text-center" >
 						<form class="navbar-form nav-center">
 						<div class="form-group">
@@ -39,37 +40,43 @@
 					<li class  = "col-xs-3 .col-md-offset-3"\ >
 						
 					</li>
-				</div>			
+				</div>
+				
+				
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
 
-	<div class="col-xs-12 col-md-12">
 
 	<!-- WHERE THE PICTURES START -->
-	<div class = "picturebody container" style = "margin-top: 10px;">
-			{{#each myhomepage}}
-
-			<div class = "col-xs-6 col-md-6" >
-				<a id="homeExpanded{{@index}}" > 
-				<!-- <a href="homeExpand">-->
+	<div class = "picturebody container col-xs-12 col-md-12" style = "margin-top: 10px;">
+			<div class = "col-xs-7 col-md-7" >
 				<div class = "thumbnail img-thumbnail  module mid" style="background: 
     				linear-gradient(
       					rgba(0, 0, 0, 0.3),
       					rgba(0, 0, 0, 0.3)),
-     				url({{category_url}});
-     				background-size: cover" >
+     				url({{event_url}});
+     				background-size: cover">
 					<div class = "caption text-center">
-						<h4> {{category}} </h4>
+						<h4> {{event}} </h4>
 					</div>
-				</div> 
-				</a>
+				</div>
 			</div>
-			{{/each}}
+			<div class = "col-xs-1 col-md-1" ></div>
+			<div class = "col-xs-4 col-md-4">
+					<br><br>
+					<h4> Event: </h4> <h3> {{event}} </h3>
+			</div> 
 			
+			<form id="addEventForm" role="form" method="get" action="/addEvent">
+	     		<div class="col-xs-12 col-md-12 text-center">
+					<input type="submit" id="submitBtn" class="btn btn-default" value="Add to Bucketlist" onclick="location.href='/bucketlist'"></input>
+				</div>
+			</form> 
 	</div>
-<br><br>
-	</div>
+	
+	<br><br>
+
 
 	<!-- 	FOOTER 		-->
 	<nav class = "footer nav navbar-default" >
@@ -79,6 +86,6 @@
 			<li> <a href = "bucketlist" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span> </a> </li>
 		</div>
 	</nav>
-	<script src="javascripts/button_interactions/home_interaction.js"></script>
+
 </body>
 </html>

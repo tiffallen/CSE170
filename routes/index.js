@@ -10,6 +10,7 @@ var memories = require('../public/javascripts/memories');
 //var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
 var home = require('../public/javascripts/home');
 var homexpanded = require('../public/javascripts/homexpanded');
+var homevent = require('../public/javascripts/homevent');
 
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
@@ -34,7 +35,8 @@ router.get('/detail', function(req, res, next) {
 router.get('/memories', memories.view);
 //router.get('/bucketExpanded', bucketlistexpanded.view);
 router.get('/home', home.view);
-router.get('/homeExpanded', homexpanded.view)
+router.get('/homeExpanded', homexpanded.view);
+router.get('/homeEvents', homexpanded.view2);
 
 router.get('/', function(req, res, next) {
 
