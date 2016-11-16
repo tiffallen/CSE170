@@ -24,7 +24,6 @@ html {
 
 .jumbotron {
     margin-top: 0;
-    margin-bottom: 0; 
 }
 
 .navbar {
@@ -74,31 +73,15 @@ html {
 
 .page-header {
     display: flex;
-    flex-direction:column;
-    align-items: center;
+    justify-content: center;
     padding-bottom: 10%;
     background: 
       url(http://67.media.tumblr.com/1102214e8c0b732c2afa4b38944ca72c/tumblr_odd5mlNXtw1uvpnq9o3_1280.jpg);
       background-color: #e7e7e7;
     
 }
-.page-name-header {
-    margin-top: 0;
-    padding-top: 0;
-   display: flex;
-    flex-direction:column;
-    align-items: center;
-    color: white;
-    background: 
-      url(http://img11.deviantart.net/efea/i/2006/240/7/a/bg_texture___wood_by_nortago.jpg);
-      background-color: #e7e7e7;
-}
 
 h1 {
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: bold;
-}
-h3 {
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
 }
