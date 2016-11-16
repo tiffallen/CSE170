@@ -13,6 +13,10 @@ var homevent = require('../public/javascripts/homevent');
 
 var memories = require('../public/javascripts/memories');
 var memexpanded = require('../public/javascripts/memexpanded');
+var memnew = require('../public/javascripts/memexpanded');
+
+var bucketlist = require('../routes/bucketlist_route');
+var bucketexpanded = require('../public/javascripts/bucketlistexpanded');
 
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
@@ -39,8 +43,12 @@ router.get('/memories', memories.view);
 router.get('/home', home.view);
 router.get('/homeExpanded', homexpanded.view);
 router.get('/homeEvents', homexpanded.view2);
-router.get('/memExpanded', memexpanded.view);
 
+router.get('/memExpanded', memexpanded.view);
+router.get('/memNew', memnew.view);
+
+router.get('/bucketlist', bucketlist.view);
+router.get('/bucketExpanded', bucketexpanded.view);
 
 router.get('/', function(req, res, next) {
 
@@ -61,12 +69,6 @@ router.get('/newMemory', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/newMemories.html');
-	//res.render('layout');
-});
-router.get('/pmemories', function(req, res, next) {
-
-	console.log('request was made: ' + req.url);
-	res.sendFile(__dirname + '/postsubmitMemories.html');
 	//res.render('layout');
 });
 

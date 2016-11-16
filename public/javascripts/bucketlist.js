@@ -9,7 +9,7 @@ function initializePage(){
 }
 
 function select(){
-	alert($(this).attr("id"));
+	console.log('REPLACED ALERT' + ($(this).attr("id")));
 	$.get("/bucketdata", function(response){
 		var name = $(this).closest('.project').attr('id');
 		for(var k = 0; k < response.length; ++k){
