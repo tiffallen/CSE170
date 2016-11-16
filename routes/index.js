@@ -6,11 +6,13 @@ var data = require('../data.json');
 
 //var bucketlist = require('./bucketlist_route');
 //var bucketlist_expanded = require('./bucketlist_get_json');
-var memories = require('../public/javascripts/memories');
 //var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
 var home = require('../public/javascripts/home');
 var homexpanded = require('../public/javascripts/homexpanded');
 var homevent = require('../public/javascripts/homevent');
+
+var memories = require('../public/javascripts/memories');
+var memexpanded = require('../public/javascripts/memexpanded');
 
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
@@ -37,6 +39,8 @@ router.get('/memories', memories.view);
 router.get('/home', home.view);
 router.get('/homeExpanded', homexpanded.view);
 router.get('/homeEvents', homexpanded.view2);
+router.get('/memExpanded', memexpanded.view);
+
 
 router.get('/', function(req, res, next) {
 
@@ -52,20 +56,7 @@ router.get('/newUser', function(req, res, next) {
 	//res.render('layout');
 });
 
-/* router.get('/home', function(req, res, next) {
 
-	console.log('request was made: ' + req.url);
-	res.sendFile(__dirname + '/home.html');
-	//res.render('layout');
-}); */
-
-/* router.get('/memories', function(req, res, next) {
-
-	console.log('request was made: ' + req.url);
-	res.sendFile(__dirname + '/memories.html');
-	//res.render('layout');
-
-}); */
 router.get('/newMemory', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
@@ -114,6 +105,20 @@ router.get('/memoriesExpand', function(req, res, next) {
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/bucketexpanded.html');
 	 //res.render('index', {category: 'Halloween'});
+}); */
+/* router.get('/home', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/home.html');
+	//res.render('layout');
+}); */
+
+/* router.get('/memories', function(req, res, next) {
+
+	console.log('request was made: ' + req.url);
+	res.sendFile(__dirname + '/memories.html');
+	//res.render('layout');
+
 }); */
 
 module.exports = router;
