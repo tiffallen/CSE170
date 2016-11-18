@@ -124,3 +124,37 @@ h3 {
   font-size: 1em;
   transform: translate(-50%, -50%);
 }
+.tutorial-image {
+  max-width: 100%;
+  width: 65%;
+  background-position: right 70px;
+  background-color: white;
+}
+#slideout {
+  position: fixed;
+  top: 40px;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+#slideout_inner {
+  position: fixed;
+  padding-left: 5px;
+    padding-right: 5px;
+  padding-bottom: 17px;
+  top: 40px;
+  left: -70px;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background-color: #419641;
+}
+#slideout:hover {
+  left:70px;
+}
+#slideout:hover #slideout_inner {
+  left: 0;
+}

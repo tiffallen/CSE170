@@ -20,7 +20,7 @@
 
 <body>
 	<div class = "jumbotron app-name page-header header">
-		<h1> -- Just Go (OPTION 2-- </h1>
+		<h1 class="text-center"> -- Just Go --  <br>   (OPTION 2) </h1>
 		<h3 data-step="1" data-intro="You are currently in the Everyday Adventures section. You can select any tile below to show activties in that category.">:: Everyday Adventures ::</h3>
 	</div>
 	
@@ -48,10 +48,21 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 
-	<div>
+	
+	<!-- <div>
 	<h3>New to Just Go?</h3>
         <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();">Tutorial</a>
-    </div>
+    </div> --> 
+
+    <div id="slideout">
+  		<img src="images/tutorial.jpg" class="tutorial-image" alt="Tutorial" />
+ 		 <div id="slideout_inner">
+ 		 	<br><br>
+    		<a class="btn btn-large btn-default" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();">Tutorial</a>
+    		<h5 class="text-center" style="color:white; font-family: 'Shadows Into Light', cursive;"> Click! </h5>
+    		<br>
+  		</div>
+	</div>
 
 	<div class="col-xs-12 col-md-12">
 
