@@ -48,10 +48,48 @@
 				<label for="adventurename">Adventure Name:</label><br>
 					<input type="text" name="adventurename">
 			</div>
-			<div class="form-group">
-	     		<label for="category">Category:</label><br>
-	     		<input type="text" name = "category">
-	    	</div>
+			<label for="category">Category: (up to 2)</label><br>
+	    	<div class="dropdowntextbox form-group">
+				<select class="drop-select" onchange="document.getElementById('displayValue').value=this.options[this.selectedIndex].text; document.getElementById('idValue').value=this.options[this.selectedIndex].value;">
+   					<option></option>
+  					<option value="one">Outdoors</option>
+  					<option value="two">Cafe</option>
+  					<option value="three">Brunch</option>
+   					<option value="four">Nightlife</option>
+   					<option value="five">Local Food</option>
+   					<option value="six">Date Night</option>
+   					<option value="seven">Winter Holidays</option>
+   					<option value="eight">Local Acitivities</option>
+   					<option value="nine">Group Activities</option>
+   					<option value="ten">Amusement Parks</option>
+   					<option value="eleven">Halloween</option>
+   					<option value="eleven">Misc</option>
+				</select>
+				<input name="category" placeholder="add/select a value" id="displayValue" class="drop-display-val " onfocus="this.select()" type="text">
+				<input name="idValue" id="idValue" type="hidden">
+			</div>
+			<br>
+			<div class="dropdowntextbox form-group">
+				<select class="drop-select" onchange="document.getElementById('displayValue').value=this.options[this.selectedIndex].text; document.getElementById('idValue').value=this.options[this.selectedIndex].value;">
+   					<option></option>
+  					<option value="one">Outdoors</option>
+  					<option value="two">Cafe</option>
+  					<option value="three">Brunch</option>
+   					<option value="four">Nightlife</option>
+   					<option value="five">Local Food</option>
+   					<option value="six">Date Night</option>
+   					<option value="seven">Winter Holidays</option>
+   					<option value="eight">Local Acitivities</option>
+   					<option value="nine">Group Activities</option>
+   					<option value="ten">Amusement Parks</option>
+   					<option value="eleven">Halloween</option>
+   					<option value="eleven">Misc</option>
+				</select>
+				<input name="category" placeholder="add/select a value" id="displayValue" class="drop-display-val " onfocus="this.select()" type="text">
+				<input name="idValue" id="idValue" type="hidden">
+			</div>
+			<br>
+
 	    	<div class="form-group">
 	     		<label for="locationideas">Possible Location(s):</label><br>
 	     		<input type="text" name = "locationideas">
@@ -59,8 +97,6 @@
 	     	<div class="col-xs-12 col-md-12 text-center">
 				<input type="submit" id="submitBtn" class="btn btn-default" value="Submit"></input>
 			</div>
-		</div>
-		</div>
 		</div>
 	</form> 
 	</div>
@@ -70,13 +106,11 @@
 
 	<!-- 	FOOTER 		-->
 	<nav class = "footer nav navbar-default" >
-		<div class = "container-fluid container1">
+		<div class = "container-fluid container2">
 			<li> <a href ="home" class = "col-xs-4"> Home <span class = "sr-only"> </span></a> </li>
 			<li> <a href = "memories" class = "col-xs-4"> Memories <span class = "sr-only"> </span> </a> </li>
 			<li> <a href = "bucketlist" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span> </a> </li>
 		</div>
 	</nav>
-</div>
 </body>
 </html>
-</div>
