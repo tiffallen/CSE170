@@ -2,7 +2,7 @@ var data = require('../../bucketdata.json');
 
 exports.view = function (req, res){
 	console.log(data);
-	res.render('bucketnew', data);
+	res.render('bucketlistnew', data);
 }
 
 
