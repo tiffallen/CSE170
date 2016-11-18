@@ -1,4 +1,4 @@
-var data = require('../bucketdata.json');
+var data = require('data/bucketdata.json');
 
 exports.view = function (req, res){
 	console.log(data);
