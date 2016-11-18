@@ -49,4 +49,30 @@ function initialize() {
 
 		window.location.href = '/memExpanded?buttonID=7';
 	});
+	$(button + '8').click(function (e) {
+		console.log('second button clicked');
+
+		window.location.href = '/memExpanded?buttonID=8';
+	});
+	$(button + '9').click(function (e) {
+		console.log('second button clicked');
+
+		window.location.href = '/memExpanded?buttonID=9';
+	});
+	$(button + '10').click(function (e) {
+		console.log('second button clicked');
+
+		window.location.href = '/memExpanded?buttonID=10';
+	});
+	$(button + '11').click(function (e) {
+		console.log('second button clicked');
+
+		window.location.href = '/memExpanded?buttonID=11';
+	});
+	$(button + '12').click(function (e) {
+		console.log('second button clicked');
+
+		window.location.href = '/memExpanded?buttonID=12';
+	});
+	
 }

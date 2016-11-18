@@ -1,28 +1,6 @@
 {
 	"myhomepage": [
 		{
-			"category": "Halloween",
-			"category_url": "http://cdn.history.com/sites/2/2013/11/Halloween-Hero-1-A.jpeg",
-			"suggestions": [
-				{
-					"category": "Halloween",
-					"event": "Haunted Trails",
-					"event_url":"http://www.smartdestinations.com/blog/wp-content/uploads/2015/09/Haunted-Trail-Balboa-Park-San-Diego-600x400.jpg"
-				},
-				{
-					"category": "Halloween",
-					"event": "Escape Room SD: Harvest Motel",
-					"event_url":"https://i.ytimg.com/vi/rlAXytaONgk/hqdefault.jpg"
-				},
-				{
-					"category": "Halloween",
-					"event": "Haunted Hotel",
-					"event_url":"https://tribkswb.files.wordpress.com/2013/07/hauntedhotelthumb.jpg"
-				}
-			]
-		
-		},
-		{
 			"category": "Cafes",
 			"category_url": "https://66.media.tumblr.com/3c81f4ea9f545315077f5f8a773fe482/tumblr_ofh6bij9ZL1v5nhxeo1_500.jpg",
 			"suggestions": [
@@ -45,28 +23,21 @@
 					"category": "Cafes",
 					"event": "Cafe Hue",
 					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14716531_1709237099393124_6328949389456834560_n.jpg?ig_cache_key=MTM3MTk0OTczMzA5ODgzMzQxNg%3D%3D.2"
-				}
-			]
-		
-		},
-		{
-			"category": "Happy Holidays",
-			"category_url": "https://65.media.tumblr.com/286c21b4ce429ddfe76314884dbe9c16/tumblr_nz3hvaBYMu1s6taa7o1_500.jpg",
-			"suggestions": [
-				{
-					"category": "Happy Holidays",
-					"event":"December Nights",
-					"event_url":"http://www.balboapark.org/sites/default/files/decnights_972.jpg"
 				},
 				{
-					"category": "Happy Holidays",
-					"event": "Julian's Country Christmas and Tree Lighting",
-					"event_url":"http://cdn.sandiegouniontrib.com/img/photos/2012/11/24/hptreelighting326311x001_r620x413.jpg?67d6da46cf1438ad26b8015f732435a7128f8cdd"
+					"category": "Cafes",
+					"event": "Hammonds Gourmet Ice Cream",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/564x/34/e8/0b/34e80b29c9107699918cc21c111c21a2.jpg"
 				},
 				{
-					"category": "Happy Holidays",
-					"event": "North Park Toyland Parade",
-					"event_url":"http://www.picscristmas.com/wp-content/uploads/2015/10/82901223_8b729fdf8d_o.jpg"
+					"category": "Cafes",
+					"event": "Better Buzzed Coffee",
+					"event_url":"http://hungarianhousewife.com/wp-content/uploads/2015/06/2015-05-better-buzz-05.jpg"
+				},
+				{
+					"category": "Cafes",
+					"event": "Baked Bear: Ice Cream Sandwitches",
+					"event_url":"http://images1.phoenixnewtimes.com/imager/u/original/8310129/the-baked-bear.jpg"
 				}
 			]
 		
@@ -99,6 +70,11 @@
 					"category": "Brunch",
 					"event": "Breakfast Republic",
 					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/14624437_1624004171233849_5240895952742514688_n.jpg?ig_cache_key=MTM2ODI5MzMyMDM3NTQzMjM3OA%3D%3D.2"
+				},
+				{
+					"category": "Brunch",
+					"event": "Crushed",
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/elgHVWS08d__fIt9WFGSCg/ls.jpg"
 				}
 			]
 		
@@ -124,8 +100,55 @@
 				},
 				{
 					"category": "Outdoors",
+					"event": "Adobe Falls",
+					"event_url":"https://i.ytimg.com/vi/qrmryAu_FQw/maxresdefault.jpg"
+				},
+				{
+					"category": "Outdoors",
 					"event": "Bike & kayak",
 					"event_url":"https://img.grouponcdn.com/deal/ikce6CJ2aWPk7PqQKgPV/Ky-1800x1080.jpg/v1/c700x420.jpg"
+				},
+				{
+					"category": "Outdoors",
+					"event": "Cliff Diving",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/564x/13/b9/bd/13b9bdd56c8927b80d1ac652ac524ba7.jpg"
+				},
+				{
+					"category": "Outdoors",
+					"event": "Anza-Borrego Desert",
+					"event_url":"https://img.buzzfeed.com/buzzfeed-static/static/2015-12/2/16/enhanced/webdr03/enhanced-29193-1449091597-1.jpg?no-auto"
+				},
+				{
+					"category": "Outdoors",
+					"event": "UCSD Challenge Course",
+					"event_url":"https://recreation.ucsd.edu/wp-content/gallery/challenge-course/Perfect-Hourglass.jpg"
+				}
+			]
+		
+		},
+		{
+			"category": "Winter Holidays",
+			"category_url": "https://65.media.tumblr.com/286c21b4ce429ddfe76314884dbe9c16/tumblr_nz3hvaBYMu1s6taa7o1_500.jpg",
+			"suggestions": [
+				{
+					"category": "Winter Holidays",
+					"event":"December Nights",
+					"event_url":"http://www.balboapark.org/sites/default/files/decnights_972.jpg"
+				},
+				{
+					"category": "Winter Holidays",
+					"event": "Julian's Country Christmas and Tree Lighting",
+					"event_url":"http://cdn.sandiegouniontrib.com/img/photos/2012/11/24/hptreelighting326311x001_r620x413.jpg?67d6da46cf1438ad26b8015f732435a7128f8cdd"
+				},
+				{
+					"category": "Winter Holidays",
+					"event": "North Park Toyland Parade",
+					"event_url":"http://www.picscristmas.com/wp-content/uploads/2015/10/82901223_8b729fdf8d_o.jpg"
+				},
+				{
+					"category": "Winter Holidays",
+					"event": "Ice Skate @the Beach (Coronado)",
+					"event_url":"https://img.buzzfeed.com/buzzfeed-static/static/2015-12/6/16/enhanced/webdr11/enhanced-10734-1449437673-1.jpg?no-auto"
 				}
 			]
 		
@@ -148,11 +171,291 @@
 					"category": "Nightlife",
 					"event": "Johnny V's",
 					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/RwumDrAHw3tpjD3_mnM3OQ/ls.jpg"
+				},
+				{
+					"category": "Nightlife",
+					"event": "Barrel Republic",
+					"event_url":"http://www.wheelingit.us/wp-content/uploads/2015/03/20150312-C-Barrel-Republic-6-JPG.jpg"
+				},
+				{
+					"category": "Nightlife",
+					"event": "White Labs Tasting Room",
+					"event_url":"http://drinkinsider.com/wp-content/uploads/2013/12/White_Labs_Beer_Yeast_Tasting1.jpg"
+				}
+			]
+		
+		},
+		{
+			"category": "Date Night",
+			"category_url": "https://66.media.tumblr.com/04564e0bd2d8bf3d2ae15a7c9a50c014/tumblr_oaxm6bkrCr1v3txejo1_500.png",
+			"suggestions": [
+				{
+					"category": "Date Night",
+					"event":"South Bay Drive-In",
+					"event_url":"http://www.funjunkie.com/wp-content/themes/GeoPlaces/timthumb.php?src=http://www.funjunkie.com/wp-content/uploads/2012/12/South-Bay-Drive-In-3.jpg&w=600&h=345&zc=1&q=70"
+				},
+				{
+					"category": "Date Night",
+					"event":"San Diego Zoo",
+					"event_url":"http://www.employeenetwork.com/T97-1157-3_small.jpg"
+				},
+				{
+					"category": "Date Night",
+					"event":"Dinner: Marine Room",
+					"event_url":"http://www.marineroom.com/var/theshoresrestaurant/storage/images/media/images/the-marine-room/header-images/home-page-headers/marine-room-dining-room-at-sunset/45796-3-eng-US/Marine-Room-Dining-Room-at-Sunset.jpg"
+				},
+				{
+					"category": "Date Night",
+					"event":"Balboa Park",
+					"event_url":"https://c1.staticflickr.com/3/2059/2063809562_855e54ff47_b.jpg"
+				}
+				
+			]
+		
+		},
+		{
+			"category": "Amusement Parks",
+			"category_url": "https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg",
+			"suggestions": [
+				{
+					"category": "Amusement Parks",
+					"event": "Knott's Berry Farm",
+					"event_url":"https://files.graphiq.com/216/media/images/Knotts_Berry_Farm_2735401.jpg"
+				},
+				{
+					"category": "Amusement Parks",
+					"event": "Belmont Park",
+					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
+				},
+				{
+					"category": "Amusement Parks",
+					"event": "Universal Studios",
+					"event_url":"http://www.universalstudioshollywood.com/site-content/uploads/2011/10/15-ONL-17587-WWoHP-NODATE_Dynamic-Lead-Homepage_961x541_C1.jpg"
+				},
+				{
+					"category": "Amusement Parks",
+					"event": "Sea World",
+					"event_url":"https://cache7.undercovertourist.com/media_file/seaworld-orlando-10501.jpg"
+				},
+				{
+					"category": "Amusement Parks",
+					"event": "Del Mar Fair",
+					"event_url":"http://www.laubergedelmar.com/images/mcc/scrapbook/1371067019Fair%202.jpg"
+				},
+				{
+					"category": "Amusement Parks",
+					"event": "Legoland",
+					"event_url":"http://www.llfblog.com/wp-content/uploads/2016/01/2016.01.26_LEGOLANDFLORIDA_LEGOMOVIE4D_026.jpg"
+				}
+			]
+		
+		},
+		{
+			"category": "Living La Vida Local",
+			"category_url": "http://www.elevatorworld.com/blogs/wp-content/uploads/2013/07/july_4th_fireworks_chicago.jpg",
+			"suggestions": [
+				{
+					"category": "Living La Vida Local",
+					"event": "Balboa Park",
+					"event_url":"https://c1.staticflickr.com/3/2059/2063809562_855e54ff47_b.jpg"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "Old Town" ,
+					"event_url":"http://www.sdrvresort.com/wp-content/uploads/2013/02/old-town-san-diego.jpg"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "Belmont Park",
+					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "Coronado Beach",
+					"event_url":"https://66.media.tumblr.com/189ff18ab6cb3898a2d235e2d80fe5f1/tumblr_nn8rv7IGZU1thfeewo1_1280.jpg"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "Carlsbad Flower Fields",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/564x/1e/d4/bc/1ed4bca944680862be14a73f73ee38fc.jpg"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "Original Corvette Diner (Hillcrest)",
+					"event_url":"http://www.sandiegocaliforniaguide.com/restaurants/corvettediner/pics/corvette_diner-car.jpg"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "Petco Park: San Diego Padres",
+					"event_url":"http://m.mlb.com/assets/images/8/3/6/127357836/cuts/Petco_Parl_1280_j1ep0jzm_jxgfjhrb.png"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "Dinner @Little Italy" ,
+					"event_url":"https://thumbs.dreamstime.com/x/little-italy-san-diego-california-28359805.jpg"
+				},
+				{
+					"category": "Living La Vida Local",
+					"event": "La Jolla Shores Beach" ,
+					"event_url":"https://farm7.staticflickr.com/6002/5931076603_4475b5c84f_z.jpg"
+				}
+			]
+		
+		}, 
+		{
+			"category": "Secret San Diego",
+			"category_url": "https://i.ytimg.com/vi/qrmryAu_FQw/maxresdefault.jpg",
+			"suggestions": [
+				{
+					"category": "Secret San Diego",
+					"event": "Adobe Falls",
+					"event_url":"https://i.ytimg.com/vi/qrmryAu_FQw/maxresdefault.jpg"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "Hospitals Reef",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/564x/77/97/99/779799a1e10eada47e57104ca42beacf.jpg"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "Pirate Cove: Sunset Cliffs",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/564x/27/bb/ca/27bbcabc1efb4c771d8ee86f7e9564e4.jpg"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "Horton Plaza Mall",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/564x/f9/2c/d2/f92cd2c9b6fbafc562ad8b7dd7b78830.jpg"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "Potato Chip Rock",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/14474443_559480540918036_7412720838266322944_n.jpg?ig_cache_key=MTM4MjI1MTEyNTcxMzI3NTQ3NA%3D%3D.2"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "Ho Chi Minh",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15048232_1859411820947423_8305824721572724736_n.jpg?ig_cache_key=MTM4MTk0MzAzMjgxMTk5NzMxNg%3D%3D.2"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "25th Street Musical Bridge",
+					"event_url":"https://img.buzzfeed.com/buzzfeed-static/static/2015-12/6/16/enhanced/webdr15/enhanced-11863-1449437828-1.jpg?no-auto"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "Queen Califia’s Magical Circle Garden",
+					"event_url":"https://redtricom.files.wordpress.com/2014/09/queen-califia.jpg?w=533&h=400"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "Mission Hills Topiary Garden",
+					"event_url":"http://media.10news.com/photo/2015/04/23/instagram%20photo_1429799932744_17201197_ver1.0_640_480.jpg"
+				}
+			]
+		
+		}, 
+		{
+			"category": "Group Activities",
+			"category_url": "https://media.glassdoor.com/l/c1/95/78/23/san-diego-branch-5k.jpg",
+			"suggestions": [
+				{
+					"category": "Group Activities",
+					"event": "Trampoline Park: Sky Zone",
+					"event_url":"https://img.grouponcdn.com/deal/n4CnxtJTF6dnY6qgPSuN/RV-700x420/v1/c700x420.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "Belmont Park",
+					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
+				}
+			]
+		
+		},
+		{
+			"category": "Halloween",
+			"category_url": "http://cdn.history.com/sites/2/2013/11/Halloween-Hero-1-A.jpeg",
+			"suggestions": [
+				{
+					"category": "Halloween",
+					"event": "Haunted Trails",
+					"event_url":"http://www.smartdestinations.com/blog/wp-content/uploads/2015/09/Haunted-Trail-Balboa-Park-San-Diego-600x400.jpg"
+				},
+				{
+					"category": "Halloween",
+					"event": "Escape Room SD: Harvest Motel",
+					"event_url":"https://i.ytimg.com/vi/rlAXytaONgk/hqdefault.jpg"
+				},
+				{
+					"category": "Halloween",
+					"event": "Haunted Hotel",
+					"event_url":"https://tribkswb.files.wordpress.com/2013/07/hauntedhotelthumb.jpg"
+				}
+			]
+		
+		},
+		{
+			"category": "Local Food",
+			"category_url": "https://www.gocartours.com/wp-content/uploads/San-Diego-Food-Trucks-Calbi-2.jpg",
+			"suggestions": [
+				{
+					"category": "Local Food",
+					"event": "Vallartas Express",
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/8A5MBkIM90taMHsS6-XlxQ/o.jpg"
+				},
+				{
+					"category": "Local Food",
+					"event": "Lucha Libre Tacos",
+					"event_url":"http://myinsurancechef.com/wp-content/uploads/2015/11/lucha-libre-taco-booth.jpg"
+				},
+				{
+					"category": "Local Food",
+					"event": "Tajima",
+					"event_url":"http://res.ejeats.com/assets/tajima-ramen-san-diego.jpg"
+				},
+				{
+					"category": "Local Food",
+					"event": "Pokirrito",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13735949_1103657529725737_1388400270_n.jpg?ig_cache_key=MTMwNzU0NTM3MzM4MDUxMjU3Mg%3D%3D.2"
+				}
+			]
+		
+		},
+		{
+			"category": "Going Out Of Town",
+			"category_url": "https://s-media-cache-ak0.pinimg.com/236x/d1/c9/cb/d1c9cb7350f076bea25e9019c70cc733.jpg",
+			"suggestions": [
+				{
+					"category": "Going Out Of Town",
+					"event": "LACMA (LA)",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15034520_1777442965841589_6913873529435848704_n.jpg?ig_cache_key=MTM4NTQ4NDM2NDcyMDM4NTM2Ng%3D%3D.2"
+				},
+				{
+					"category": "Going Out Of Town",
+					"event": "Pasta Sisters (LA)",
+					"event_url":"https://static.wixstatic.com/media/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.jpg/v1/fill/w_486,h_324,al_c,q_90,usm_0.66_1.00_0.01/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.webp"
+				},
+				{
+					"category": "Going Out Of Town",
+					"event": "C Biche (Tijuana)",
+					"event_url":"https://irs0.4sqi.net/img/general/200x200/46763943_7JY02lFjPpR1gasBg9zF1TVBSZX3mrABf4LIUz_aBXs.jpg"
+				},
+				{
+					"category": "Going Out Of Town",
+					"event": "Telefonica Food Trucks (Tijuana)",
+					"event_url":"http://media.sdreader.com/img/photos/2015/01/07/Telefonica_t658.jpg?ff95ca2b4c25d2d6ff3bfb257febf11d604414e5"
+				},
+				{
+					"category": "Going Out Of Town",
+					"event": "Broad Museum (LA)",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/564x/93/32/a6/9332a6ba4e96d1543bb4f4379aa1e887.jpg"
+				},
+				{
+					"category": "Going Out Of Town",
+					"event": "The Last Bookstore (LA)",
+					"event_url":"https://s-media-cache-ak0.pinimg.com/236x/20/71/0f/20710f2bfa2ea9a0dd4103722017795c.jpg"
 				}
 			]
 		
 		}
-	
-	
 	]
 }
