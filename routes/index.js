@@ -13,11 +13,12 @@ var homevent = require('../public/javascripts/homevent');
 
 var memories = require('../public/javascripts/memories');
 var memexpanded = require('../public/javascripts/memexpanded');
-var memnew = require('../public/javascripts/memexpanded');
+var memnew = require('../public/javascripts/memoriesnew');
+
 
 var bucketlist = require('../routes/bucketlist_route');
 var bucketexpanded = require('../public/javascripts/bucketlistexpanded');
-
+var bucketnew = require('../public/javascripts/bucketlistnew');
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
   res.render('index', { title: 'Just Go' });
@@ -38,17 +39,18 @@ router.get('/detail', function(req, res, next) {
 	//res.render('layout');
 }); */
 //router.get('/bucketlist', bucketlist.view);
-router.get('/memories', memories.view);
 //router.get('/bucketExpanded', bucketlistexpanded.view);
 router.get('/home', home.view);
 router.get('/homeExpanded', homexpanded.view);
 router.get('/homeEvents', homexpanded.view2);
 
+router.get('/memories', memories.view);
 router.get('/memExpanded', memexpanded.view);
-router.get('/memNew', memnew.view);
+router.get('/newMemory', memnew.view) 
 
 router.get('/bucketlist', bucketlist.view);
 router.get('/bucketExpanded', bucketexpanded.view);
+router.get('/newBucketlist', bucketnew.view);
 
 router.get('/', function(req, res, next) {
 
@@ -65,14 +67,14 @@ router.get('/newUser', function(req, res, next) {
 });
 
 
-router.get('/newMemory', function(req, res, next) {
+router.get('/newMemoryHTML', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/newMemories.html');
 	//res.render('layout');
 });
 
-router.get('/newBucketlist', function(req, res, next) {
+router.get('/newBucketlistHTML', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/newBucketlist.html');

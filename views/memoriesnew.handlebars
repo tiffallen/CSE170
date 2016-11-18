@@ -16,9 +16,10 @@
 </head>
 
 <body>
+	<script src="javascripts/mydate.js"></script>
 	<div class = "jumbotron app-name page-header">
 		<div class = "container1" >
-			<h1> Create New Memory </h1>
+			<h1> Create New Memories </h1>
 		</div>
 	</div>
 	
@@ -38,98 +39,63 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 
-	<!-- Data entering starts here -->
-	<!--<div class="newmemoriesdata container" style = "margin-top: 10px;">
-		<div class="col-xs-3 col-md-3 boxlabels"> </div>
-		<div class="col-xs-3 col-md-3 boxlabels text-center">
-			<form>
-				Adventure Name:<br><br>
-				Category: <br><br>
-				Location:<br><br><br>
-				Date:<br><br><br>
-				Photos:<br><br><br>
-				Tagged Friends (Separate with a comma!):<br><br>
-				Notes:<br><br>
-			</form>
-		</div>
-		<div class="col-xs-6 col-md-6 textboxes">
-			<form>
-				<input type="text" name="tripname"><br><br>
-				<input type="text" name = "category"><br><br>
-				<input type="text" name="triploc"><br><br>
-				<input type="date" name="tripdate"><br><br>
-				<div class="uploadingpics"><br><br><br><br></div>
-				<input type="text" name="tripfriends"><br><br>
-				<textarea name="mynotes" rows="4" cols="50">
-				</textarea>
-			</form>
-			<br><br>
-		</div>
 
-		<div class="col-xs-6 col-md-6 text-center">
-			<button type="submit" class="btn btn-secondary"><a href = "memories">Submit </a></button>
-			<div class="col-xs-4 col-md-4 text-center"></div>
-			<div class="col-xs-5 col-md-5 text-center">
-				<div class="col-xs-3 col-md-3 text-center"></div>
-				<br><br><br><br><br><br><br>
-			</div>
-		
-		</div>
-	</div>--> 
+	<div class="col-xs-12 col-md-12">
+	<div class="picturebody container1 pagebottom" style="margin-top: 10px">
 
 	<form id="addMemoryForm" role="form" method="get" action="/addMemory">
-		<div class="col-xs-3 col-md-3 boxlabels"> </div>
-		<div class="col-xs-3 col-md-3 boxlabels text-center">
+		<div class="col-xs-1 col-md-1 boxlabels"> </div>
+		<div class="col-xs-10 col-md-10 boxlabels text-center">
 			<div class="form-group">
-				<label for="tripname">Adventure Name:</label>
+				<label for="tripname">Adventure Name:</label><br>
 					<input type="text" name="tripname">
 			</div>
 			<div class="form-group">
-	     		<label for="category">Category:</label>
+	     		<label for="category">Category:</label><br>
 	     		<input type="text" name = "category">
 	    	</div>
 	    	<div class="form-group">
-	     		<label for="location">Location:</label>
+	     		<label for="location">Location:</label><br>
 	     		<input type="text" name = "triploc">
 	     	</div>
 	     	<div class="form-group">
-	     		<label for="date">Date:</label>
-	     		<input type="text" name = "tripdate">
+	     		<label for="date">Date:</label><br>
+	     		<input type="date" id="dt" onchange="mydate1();" hidden/>
+				<input type="text" id="ndt"  onclick="mydate();" name="tripdate" hidden />
+				<input type="button" Value="Date" onclick="mydate();" />
+				
 	     	</div>
 	     	<!--<div class="form-group">
 	     		<label for ="pictures">Trip Pictures:</label>
 	     		<input type="file" name ="trippics" accept="imagine/*">
 	     	</div>-->
 	     	<div class="form-group">
-	     		<label for="friends">Tagged Friends:</label>
+	     		<label for="friends">Tagged Friends:</label><br>
 	     		<input type="text" name = "tripfriends">
 	     	</div>
 	     	<div class="form-group">
-	     		<label for="notes">Notes:</label>
-	     		<input type="text" name = "tripnotes">
+	     		<label for="notes">Notes:</label><br>
+	     		<textarea name="tripnotes" rows="4" cols="50"></textarea>
 	     	</div>
 	     	<div class="col-xs-12 col-md-12 text-center">
-				<input type="submit" id="submitBtn" class="btn btn-default" value="Submit"></input>
+				<input type="submit" id="submitBtn" class="btn btn-default" value="Submit"> </input>
 			</div>
-			</a>
-		</div>
-		</div>
 		</div>
 	</form> 
-
+	</div>
+	</div>
 
 
 
 	<!-- 	FOOTER 		-->
 	<nav class = "footer nav navbar-default" >
-		<div class = "container-fluid container1">
+		<div class = "container-fluid container2">
 			<li> <a href ="home" class = "col-xs-4"> Home <span class = "sr-only"> </span></a> </li>
 			<li> <a href = "memories" class = "col-xs-4"> Memories <span class = "sr-only"> </span> </a> </li>
 			<li> <a href = "bucketlist" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span> </a> </li>
 		</div>
 	</nav>
 
-</div>
+
 </body>
 </html>
-</div>

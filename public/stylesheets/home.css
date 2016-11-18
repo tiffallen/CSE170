@@ -15,6 +15,10 @@ html {
     padding: 0;
     color: #000;
 }
+.pagebottom {
+  padding-bottom: 50px;
+  margin-top: 10px;
+}
 
 .container1 {
     display: flex;
@@ -61,6 +65,7 @@ html {
 }
 
 .footer {
+    padding-top: 10;
     position: fixed;
     width: 100%;
     background-color: #e7e7e7;

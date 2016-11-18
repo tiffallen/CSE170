@@ -1,7 +1,7 @@
 .<!document html>
 <html>
 <head> 
-	<title>Explore Category Selected</title>
+	<title>Bucketlist: {{adventurename}} Selected</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link href="stylesheets/bootstrap.min.css" rel="stylesheet"/>
@@ -18,7 +18,7 @@
 <body>
 	<div class = "jumbotron app-name page-header">
 		<div class = "container1" >
-			<h1 class="text-center"> Bucket List {{adventurename}} </h1>
+			<h1 class="text-center"> Bucket List </h1>
 		</div>
 	</div>
 	
@@ -27,8 +27,7 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse  container1">
 				<div class="nav navbar-nav navigation">
-					<!--<li class  = "col-xs-3"> <a href ="home" > Back </a> </li>
-					Don't need a back button	-->
+					<li class  = "col-xs-3"> <a href ="bucketlist" > Back </a> </li>
 					<li class  = "col-xs-12 text-center" >
 					</li>
 					<li class  = "col-xs-3 .col-md-offset-3"\ >
@@ -81,7 +80,17 @@
 			<h3 style="font-size: 20px"> {{locationideas}} </h3>
   		</div>
   </div>
+  <!-- TRYING TO REMOVE EVENT
+  <form id="removeEventForm" role="form" method="get" action="/removeEvent">
+	     		<div class="col-xs-12 col-md-12 text-center">
+	     			<div class="form-group">
+						<input type="hidden" name="adventurename" value="{{event}}">
+	     			</div>
 
+					<input type="submit" id="submitBtn" class="btn btn-default" value="Delete Goal" onclick="location.href='/bucketlist'"></input>
+				</div>
+	</form> -->
+	<br> <br> <br>
 
   </div>
 	<!-- 	FOOTER 		-->

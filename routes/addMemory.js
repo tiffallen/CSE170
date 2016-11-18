@@ -11,6 +11,6 @@ exports.addMemory = function(req, res) {
 	var mynotes = req.query.mynotes;
 	var newMemory = {"tripname": tripname, "category": category, "triploc": triploc, "tripdate": tripdate, "trippics": trippics, "tripfriends": tripfriends, "mynotes": mynotes};
 	console.log(newMemory);
-	data.mymemories.push(newMemory);
+	data.mymemories.unshift(newMemory);
 	return res.redirect("/memories");
 }

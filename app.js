@@ -11,6 +11,7 @@ var handlebars = require('express3-handlebars')
 var routes = require('./routes/index');
 var addEvent = require('./routes/addEvent');
 var addMemory = require('./routes/addMemory');
+var removeEvent = require('./routes/removeEvent');
 var userlogin = require('./routes/userlogin');
 var createAccount = require('./routes/createAccount');
 var users = require('./routes/users');
@@ -47,6 +48,7 @@ app.use('/users', users);
 
 app.get('/addEvent', addEvent.addEvent);
 app.get('/addMemory', addMemory.addMemory);
+app.get('/removeEvent', removeEvent.removeEvent)
 app.get('/userlogin', userlogin.userlogin);
 app.get('/createAccount', createAccount.createAccount);
 app.get('/bucketlist', bucketlist.view);
