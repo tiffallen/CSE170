@@ -7,9 +7,11 @@
 	<link href="stylesheets/bootstrap.min.css" rel="stylesheet"/>
 	<link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet"/>
 	<link href="stylesheets/home.css" rel="stylesheet"/>
+	<link href="intro/introjs.css" rel="stylesheet"/>
 	
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 	
+	<script src="intro/intro.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/public/stylesheets/bootstrap.min.js"></script> -->
 	
@@ -18,7 +20,7 @@
 <body>
 	<div class = "jumbotron app-name page-header header">
 		<h1> -- Just Go -- </h1>
-		<h3> :: Everyday Adventures :: </h3>
+		<h3 data-step="1" data-intro="You are currently in the Everyday Adventures section. You can select any tile below to show activties in that category.">:: Everyday Adventures ::</h3>
 	</div>
 	
 	<nav class="navbar navbar-default">
@@ -33,7 +35,8 @@
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Search">
 						</div>
-						<button type="submit" class="btn btn-secondary" href="home">Search </button>
+            <h3 data-step="2" data-intro="Use the search bar to search for an activity you are looking for.">
+						<button type="submit" class="btn btn-secondary" href="home">Search </button></h3>
 						</form>
 					</li>
 					<li class  = "col-xs-3 .col-md-offset-3"\ >
@@ -43,6 +46,11 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
+
+	<div>
+	<h3>New to Just Go?</h3>
+        <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().setOption('showProgress', true).start();">Tutorial</a>
+    </div>
 
 	<div class="col-xs-12 col-md-12">
 
@@ -72,6 +80,7 @@
 	</div>
 
 	<!-- 	FOOTER 		-->
+  <h3 data-step="3" data-intro="Use the bottom menue to take you Home, to your Memories, or your Bucketlist at anytime.">
 	<nav class = "footer nav navbar-default" >
 		<div class = "container-fluid container2">
 			<li> <a href ="home" class = "col-xs-4"> Home <span class = "sr-only"> </span></a> </li>
@@ -79,6 +88,8 @@
 			<li> <a href = "bucketlist" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span> </a> </li>
 		</div>
 	</nav>
+</h3>
 	<script src="javascripts/button_interactions/home_interaction.js"></script>
+  <script src="intro/intro.js"></script>
 </body>
 </html>
