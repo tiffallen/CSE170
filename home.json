@@ -214,43 +214,6 @@
 		
 		},
 		{
-			"category": "Amusement Parks",
-			"category_url": "https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg",
-			"suggestions": [
-				{
-					"category": "Amusement Parks",
-					"event": "Knott's Berry Farm",
-					"event_url":"https://files.graphiq.com/216/media/images/Knotts_Berry_Farm_2735401.jpg"
-				},
-				{
-					"category": "Amusement Parks",
-					"event": "Belmont Park",
-					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
-				},
-				{
-					"category": "Amusement Parks",
-					"event": "Universal Studios",
-					"event_url":"http://www.universalstudioshollywood.com/site-content/uploads/2011/10/15-ONL-17587-WWoHP-NODATE_Dynamic-Lead-Homepage_961x541_C1.jpg"
-				},
-				{
-					"category": "Amusement Parks",
-					"event": "Sea World",
-					"event_url":"https://cache7.undercovertourist.com/media_file/seaworld-orlando-10501.jpg"
-				},
-				{
-					"category": "Amusement Parks",
-					"event": "Del Mar Fair",
-					"event_url":"http://www.laubergedelmar.com/images/mcc/scrapbook/1371067019Fair%202.jpg"
-				},
-				{
-					"category": "Amusement Parks",
-					"event": "Legoland",
-					"event_url":"http://www.llfblog.com/wp-content/uploads/2016/01/2016.01.26_LEGOLANDFLORIDA_LEGOMOVIE4D_026.jpg"
-				}
-			]
-		
-		},
-		{
 			"category": "Living La Vida Local",
 			"category_url": "http://www.elevatorworld.com/blogs/wp-content/uploads/2013/07/july_4th_fireworks_chicago.jpg",
 			"suggestions": [
@@ -302,6 +265,50 @@
 			]
 		
 		}, 
+		{
+			"category": "Local Food",
+			"category_url": "https://www.gocartours.com/wp-content/uploads/San-Diego-Food-Trucks-Calbi-2.jpg",
+			"suggestions": [
+				{
+					"category": "Local Food",
+					"event": "Vallartas Express",
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/8A5MBkIM90taMHsS6-XlxQ/o.jpg"
+				},
+				{
+					"category": "Local Food",
+					"event": "Lucha Libre Tacos",
+					"event_url":"http://myinsurancechef.com/wp-content/uploads/2015/11/lucha-libre-taco-booth.jpg"
+				},
+				{
+					"category": "Local Food",
+					"event": "Tajima",
+					"event_url":"http://res.ejeats.com/assets/tajima-ramen-san-diego.jpg"
+				},
+				{
+					"category": "Local Food",
+					"event": "Pokirrito",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13735949_1103657529725737_1388400270_n.jpg?ig_cache_key=MTMwNzU0NTM3MzM4MDUxMjU3Mg%3D%3D.2"
+				}
+			]
+		
+		},
+		{
+			"category": "Group Activities",
+			"category_url": "https://media.glassdoor.com/l/c1/95/78/23/san-diego-branch-5k.jpg",
+			"suggestions": [
+				{
+					"category": "Group Activities",
+					"event": "Trampoline Park: Sky Zone",
+					"event_url":"https://img.grouponcdn.com/deal/n4CnxtJTF6dnY6qgPSuN/RV-700x420/v1/c700x420.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "Belmont Park",
+					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
+				}
+			]
+		
+		},
 		{
 			"category": "Secret San Diego",
 			"category_url": "https://i.ytimg.com/vi/qrmryAu_FQw/maxresdefault.jpg",
@@ -355,74 +362,45 @@
 		
 		}, 
 		{
-			"category": "Group Activities",
-			"category_url": "https://media.glassdoor.com/l/c1/95/78/23/san-diego-branch-5k.jpg",
+			"category": "Amusement Parks",
+			"category_url": "https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg",
 			"suggestions": [
 				{
-					"category": "Group Activities",
-					"event": "Trampoline Park: Sky Zone",
-					"event_url":"https://img.grouponcdn.com/deal/n4CnxtJTF6dnY6qgPSuN/RV-700x420/v1/c700x420.jpg"
+					"category": "Amusement Parks",
+					"event": "Knott's Berry Farm",
+					"event_url":"https://files.graphiq.com/216/media/images/Knotts_Berry_Farm_2735401.jpg"
 				},
 				{
-					"category": "Group Activities",
+					"category": "Amusement Parks",
 					"event": "Belmont Park",
 					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
-				}
-			]
-		
-		},
-		{
-			"category": "Halloween",
-			"category_url": "http://cdn.history.com/sites/2/2013/11/Halloween-Hero-1-A.jpeg",
-			"suggestions": [
-				{
-					"category": "Halloween",
-					"event": "Haunted Trails",
-					"event_url":"http://www.smartdestinations.com/blog/wp-content/uploads/2015/09/Haunted-Trail-Balboa-Park-San-Diego-600x400.jpg"
 				},
 				{
-					"category": "Halloween",
-					"event": "Escape Room SD: Harvest Motel",
-					"event_url":"https://i.ytimg.com/vi/rlAXytaONgk/hqdefault.jpg"
+					"category": "Amusement Parks",
+					"event": "Universal Studios",
+					"event_url":"http://www.universalstudioshollywood.com/site-content/uploads/2011/10/15-ONL-17587-WWoHP-NODATE_Dynamic-Lead-Homepage_961x541_C1.jpg"
 				},
 				{
-					"category": "Halloween",
-					"event": "Haunted Hotel",
-					"event_url":"https://tribkswb.files.wordpress.com/2013/07/hauntedhotelthumb.jpg"
-				}
-			]
-		
-		},
-		{
-			"category": "Local Food",
-			"category_url": "https://www.gocartours.com/wp-content/uploads/San-Diego-Food-Trucks-Calbi-2.jpg",
-			"suggestions": [
-				{
-					"category": "Local Food",
-					"event": "Vallartas Express",
-					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/8A5MBkIM90taMHsS6-XlxQ/o.jpg"
+					"category": "Amusement Parks",
+					"event": "Sea World",
+					"event_url":"https://cache7.undercovertourist.com/media_file/seaworld-orlando-10501.jpg"
 				},
 				{
-					"category": "Local Food",
-					"event": "Lucha Libre Tacos",
-					"event_url":"http://myinsurancechef.com/wp-content/uploads/2015/11/lucha-libre-taco-booth.jpg"
+					"category": "Amusement Parks",
+					"event": "Del Mar Fair",
+					"event_url":"http://www.laubergedelmar.com/images/mcc/scrapbook/1371067019Fair%202.jpg"
 				},
 				{
-					"category": "Local Food",
-					"event": "Tajima",
-					"event_url":"http://res.ejeats.com/assets/tajima-ramen-san-diego.jpg"
-				},
-				{
-					"category": "Local Food",
-					"event": "Pokirrito",
-					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13735949_1103657529725737_1388400270_n.jpg?ig_cache_key=MTMwNzU0NTM3MzM4MDUxMjU3Mg%3D%3D.2"
+					"category": "Amusement Parks",
+					"event": "Legoland",
+					"event_url":"http://www.llfblog.com/wp-content/uploads/2016/01/2016.01.26_LEGOLANDFLORIDA_LEGOMOVIE4D_026.jpg"
 				}
 			]
 		
 		},
 		{
 			"category": "Going Out Of Town",
-			"category_url": "https://s-media-cache-ak0.pinimg.com/236x/d1/c9/cb/d1c9cb7350f076bea25e9019c70cc733.jpg",
+			"category_url": "https://s-media-cache-ak0.pinimg.com/236x/9a/4a/4d/9a4a4db88e0691fd2a60c457f71e6899.jpg",
 			"suggestions": [
 				{
 					"category": "Going Out Of Town",
@@ -453,6 +431,28 @@
 					"category": "Going Out Of Town",
 					"event": "The Last Bookstore (LA)",
 					"event_url":"https://s-media-cache-ak0.pinimg.com/236x/20/71/0f/20710f2bfa2ea9a0dd4103722017795c.jpg"
+				}
+			]
+		
+		},
+		{
+			"category": "Halloween",
+			"category_url": "http://cdn.history.com/sites/2/2013/11/Halloween-Hero-1-A.jpeg",
+			"suggestions": [
+				{
+					"category": "Halloween",
+					"event": "Haunted Trails",
+					"event_url":"http://www.smartdestinations.com/blog/wp-content/uploads/2015/09/Haunted-Trail-Balboa-Park-San-Diego-600x400.jpg"
+				},
+				{
+					"category": "Halloween",
+					"event": "Escape Room SD: Harvest Motel",
+					"event_url":"https://i.ytimg.com/vi/rlAXytaONgk/hqdefault.jpg"
+				},
+				{
+					"category": "Halloween",
+					"event": "Haunted Hotel",
+					"event_url":"https://tribkswb.files.wordpress.com/2013/07/hauntedhotelthumb.jpg"
 				}
 			]
 		
