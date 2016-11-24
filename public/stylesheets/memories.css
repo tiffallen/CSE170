@@ -28,7 +28,6 @@ label {
 input {
   width:100%;
   box-sizing: border-box;
-  display: block;
   overflow: hidden;
 }
 a {
@@ -101,14 +100,11 @@ a {
     width: auto;
     height: 8%;
   }
-  .footer-border {
+  .footer-border1 {
     border-right: 2px solid #25483B;
   }
   .footer-seperation {
     text-align: center;
-    margin-right: 4%;
-    margin-left: 7%;
-    padding-right: 3%;
   }
 
 .page-header {
