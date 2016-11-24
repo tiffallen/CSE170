@@ -122,6 +122,21 @@
 					"category": "Outdoors",
 					"event": "UCSD Challenge Course",
 					"event_url":"https://recreation.ucsd.edu/wp-content/gallery/challenge-course/Perfect-Hourglass.jpg"
+				},
+				{
+					"category": "Outdoors",
+					"event": "California's Longest Zipline: La Jolla Indian Reserve" ,
+					"event_url":"https://media-cdn.tripadvisor.com/media/photo-s/08/e3/23/7f/la-jolla-zip-zoom.jpg"
+				},
+				{
+					"category": "Outdoors",
+					"event": "Snorkel San Diego Scuba" ,
+					"event_url":"https://image.rush49.com/rush49/snorkeling-los-angeles-san-diego-1-730px.jpeg"
+				},
+				{
+					"category": "Outdoors",
+					"event": "jetpack san diego" ,
+					"event_url":"https://media-cdn.tripadvisor.com/media/photo-s/05/52/41/9d/jetpack-america-san-diego.jpg"
 				}
 			]
 		
@@ -230,7 +245,7 @@
 				{
 					"category": "Local Acitivities",
 					"event": "Belmont Park",
-					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
+					"event_url":"http://missionsands.com/custimages/Belmont2.jpg"
 				},
 				{
 					"category": "Local Acitivities",
@@ -261,6 +276,21 @@
 					"category": "Local Acitivities",
 					"event": "La Jolla Shores Beach" ,
 					"event_url":"https://farm7.staticflickr.com/6002/5931076603_4475b5c84f_z.jpg"
+				},
+				{
+					"category": "Local Acitivities",
+					"event": "California's Longest Zipline: La Jolla Indian Reserve" ,
+					"event_url":"https://media-cdn.tripadvisor.com/media/photo-s/08/e3/23/7f/la-jolla-zip-zoom.jpg"
+				},
+				{
+					"category": "Local Acitivities",
+					"event": "Snorkel San Diego Scuba" ,
+					"event_url":"https://image.rush49.com/rush49/snorkeling-los-angeles-san-diego-1-730px.jpeg"
+				},
+				{
+					"category": "Local Acitivities",
+					"event": "jetpack san diego" ,
+					"event_url":"https://media-cdn.tripadvisor.com/media/photo-s/05/52/41/9d/jetpack-america-san-diego.jpg"
 				}
 			]
 		
@@ -304,7 +334,47 @@
 				{
 					"category": "Group Activities",
 					"event": "Belmont Park",
-					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
+					"event_url":"http://missionsands.com/custimages/Belmont2.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "Social Cycle",
+					"event_url":"https://img.grouponcdn.com/deal/7SQGktEXwvZgiuNY1QU6oe/IMAGE_Social-Cycle1-1280x768/v1/c700x420.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "Bike & kayak",
+					"event_url":"https://img.grouponcdn.com/deal/ikce6CJ2aWPk7PqQKgPV/Ky-1800x1080.jpg/v1/c700x420.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "Ugly Sweater Pub Crawl",
+					"event_url":"http://sandiegopubcrawler.com/images/announcements/UglySweater.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "Murder Mystery: The Dinner Detective",
+					"event_url":"http://sandiego.carpediem.cd/data/afisha/o/bb/c4/bbc4da4185.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "",
+					"event_url":""
+				},
+				{
+					"category": "Group Activities",
+					"event": "",
+					"event_url":""
+				},
+				{
+					"category": "Group Activities",
+					"event": "Snorkel San Diego Scuba" ,
+					"event_url":"https://image.rush49.com/rush49/snorkeling-los-angeles-san-diego-1-730px.jpeg"
+				},
+				{
+					"category": "Group Activities",
+					"event": "Escape Room: Escape Game SD" ,
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/wlHVNClBTgdbdkEZxkqWLQ/o.jpg"
 				}
 			]
 		
@@ -357,6 +427,11 @@
 					"category": "Secret San Diego",
 					"event": "Mission Hills Topiary Garden",
 					"event_url":"http://media.10news.com/photo/2015/04/23/instagram%20photo_1429799932744_17201197_ver1.0_640_480.jpg"
+				},
+				{
+					"category": "Secret San Diego",
+					"event": "California's Longest Zipline: La Jolla Indian Reserve" ,
+					"event_url":"https://media-cdn.tripadvisor.com/media/photo-s/08/e3/23/7f/la-jolla-zip-zoom.jpg"
 				}
 			]
 		
@@ -373,7 +448,7 @@
 				{
 					"category": "Amusement Parks",
 					"event": "Belmont Park",
-					"event_url":"https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg"
+					"event_url":"http://missionsands.com/custimages/Belmont2.jpg"
 				},
 				{
 					"category": "Amusement Parks",
