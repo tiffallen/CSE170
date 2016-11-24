@@ -27,14 +27,9 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse  container1">
 				<div class="nav navbar-nav navigation">
-					<li class  = "col-xs-2 col-md-offset-2"\>
-						<ul class = "nav navbar-nav">
-							<li> <a href ="home" onclick="__gaTracker('send', 'event', 'buttons', 'click', '0: homeEvent->back');"><input type="image" class="nav-top-img" src="http://karlstratos.com/images/back.png"> </input></a> </li>
-						</ul>
-					</li>
-					<li class="col-xs-1 col-md-offset-1"\>
+					<li class  = "col-xs-3"> <a href ="home1" onclick="__gaTracker('send', 'event', 'buttons', 'click', '1: homeEvent->back');"> Back </a> </li>
 					
-					<li class  = "col-xs-6 text-center" >
+					<li class  = "col-xs-12 text-center" >
 						
 					</li>
 					<li class  = "col-xs-3 .col-md-offset-3"\ >
@@ -68,7 +63,7 @@
 					<h4> Event: </h4> <h3> {{event}} </h3>
 			</div> 
 			
-			<form id="addEventForm" role="form" method="get" action="/addEvent">
+			<form id="addEventForm" role="form" method="get" action="/addEvent1">
 	     		<div class="col-xs-12 col-md-12 text-center">
 
 	     		<div class="form-group">
@@ -78,7 +73,7 @@
 					<input type="hidden" name="adventurepics" value="{{event_url}}">
 	     		</div>
 
-					<input type="submit" id="submitBtn" class="btn btn-default" value="Add to Bucketlist" onclick="location.href='/bucketlist'"></input>
+					<input type="submit" id="submitBtn" class="btn btn-default" value="Add to Bucketlist" onclick="location.href='/bucketlist1'"></input>
 				</div>
 			</form> 
 	</div>
@@ -90,11 +85,11 @@
 	<nav id="footer" class = "footer nav navbar-default" >
 		<div class = "container-fluid container2 row-fluid">
 			<div class="col-xs-1"></div>
-			<li class="footer-border footer-seperation"> <a href ="home" onclick="__gaTracker('send', 'event', 'buttons', 'click', '0: home->home');" class = "col-xs-4 offset1"> <input type="image" class="footer-img" src="http://www.nuyken-transport.de/images/home-13.png"> Home <span class = "sr-only"> </span></input></a> </li>
+			<li> <a href ="home1" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'home->home');" class = "col-xs-4"> Home <span class = "sr-only"> </span></a> </li>
 
-			<li class="footer-border footer-seperation"> <a href = "memories" onclick="__gaTracker('send', 'event', 'buttons', 'click', '0: home->memory');" class = "col-xs-4 te"> <input type="image" class="footer-img" style="padding-top:3px;" src="http://www.berkelbike.com/wp-content/uploads/2014/08/50xNxman.png.pagespeed.ic.R6lWNMBbFB.png">Memories <span class = "sr-only"> </span> </input></a> </li>
+			<li> <a href ="memories1" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'home->memories');" class = "col-xs-4"> Memories <span class = "sr-only"> </span></a> </li>
 
-			<li class="footer-seperation"> <a href = "bucketlist" onclick="__gaTracker('send', 'event', 'buttons', 'click', '0: home->bucket');" class = "col-xs-4"><input type="image" class="footer-img" src="http://www.geldplus.net/wp-content/uploads/2015/04/fazit.png"> Bucketlist <span class = "sr-only"> </span></input></a> </li>
+			<li> <a href ="bucketlist1" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'home->bucket');" class = "col-xs-4"> Bucketlist <span class = "sr-only"> </span></a> </li>
 		</div>
 	</nav>
 

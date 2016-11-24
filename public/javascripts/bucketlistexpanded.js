@@ -9,3 +9,10 @@ exports.view = function (req, res){
 	res.render('bucketexpanded', data.mybucketlist[buttonID1]); 
 	// will only send the first element of the array "myhomepage"
 }
+exports.view1 = function (req, res){
+	buttonID1 = req.query.buttonID;
+	console.log('Bucketlist1 Expand: ' + req.query['buttonID1']);
+	console.log('data: ' + data['mybucketlist']);
+	res.render('bucketexpanded1', data.mybucketlist[buttonID1]); 
+	// will only send the first element of the array "myhomepage"
+}

@@ -47,7 +47,9 @@ app.use('/', routes);
 app.use('/users', users);
 
 app.get('/addEvent', addEvent.addEvent);
+app.get('/addEvent1', addEvent.addEvent1);
 app.get('/addMemory', addMemory.addMemory);
+app.get('/addMemory1', addMemory.addMemory1);
 app.get('/removeEvent', removeEvent.removeEvent)
 app.get('/userlogin', userlogin.userlogin);
 app.get('/createAccount', createAccount.createAccount);

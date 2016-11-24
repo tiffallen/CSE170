@@ -44,15 +44,24 @@ router.get('/detail', function(req, res, next) {
 router.get('/home', home.view);
 router.get('/home1', home.view1);
 router.get('/homeExpanded', homexpanded.view);
-router.get('/homeEvents', homexpanded.view2);
+router.get('/homeExpanded1', homexpanded.view2);
+router.get('/homeEvents', homexpanded.view1);
+router.get('/homeEvents1', homexpanded.view3);
 
 router.get('/memories', memories.view);
+router.get('/memories1', memories.view1);
 router.get('/memExpanded', memexpanded.view);
-router.get('/newMemory', memnew.view) 
+router.get('/memExpanded1', memexpanded.view1);
+router.get('/newMemory', memnew.view); 
+router.get('/newMemory1', memnew.view1); 
+
 
 router.get('/bucketlist', bucketlist.view);
+router.get('/bucketlist1', bucketlist.view1);
 router.get('/bucketExpanded', bucketexpanded.view);
+router.get('/bucketExpanded1', bucketexpanded.view1);
 router.get('/newBucketlist', bucketnew.view);
+router.get('/newBucketlist1', bucketnew.view1);
 
 router.get('/', function(req, res, next) {
 
@@ -61,7 +70,7 @@ router.get('/', function(req, res, next) {
 	//res.render('layout');
 });
 
-router.get('/newUser', function(req, res, next) {
+/* router.get('/newUser', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/newUser.html');
@@ -106,7 +115,7 @@ router.get('/memoriesExpand', function(req, res, next) {
 	 //res.render('index', {category: 'Halloween'});
 });
 
-/* router.get('/bucketExpanded', function(req, res, next) {
+ router.get('/bucketExpanded', function(req, res, next) {
 
 	console.log('request was made: ' + req.url);
 	res.sendFile(__dirname + '/bucketexpanded.html');
