@@ -109,10 +109,9 @@ input {
 
 .footer {
 	position: fixed;
-  padding-top: 10;
 	width: 100%;
 	bottom: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .page-header {
