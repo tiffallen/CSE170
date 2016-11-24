@@ -137,11 +137,11 @@ h1 {
     ),
     url(https://65.media.tumblr.com/a32a263e3cd5d1b7415337abe19ccf7d/tumblr_og11gvKznQ1uq521lo1_500.jpg);
     background-size: cover;
-    width: 150%;
     height: 25%;
-    min-height: 10%;
-    min-width: 110%;
-    float: left;
+    width: 120%;
+    max-width: 450px;
+    float: center;
+    position: relative;
     position: relative;
     margin-bottom: 5%;
 }

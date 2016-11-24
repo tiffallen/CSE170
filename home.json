@@ -358,23 +358,13 @@
 				},
 				{
 					"category": "Group Activities",
-					"event": "",
-					"event_url":""
-				},
-				{
-					"category": "Group Activities",
-					"event": "",
-					"event_url":""
-				},
-				{
-					"category": "Group Activities",
 					"event": "Snorkel San Diego Scuba" ,
 					"event_url":"https://image.rush49.com/rush49/snorkeling-los-angeles-san-diego-1-730px.jpeg"
 				},
 				{
 					"category": "Group Activities",
 					"event": "Escape Room: Escape Game SD" ,
-					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/wlHVNClBTgdbdkEZxkqWLQ/o.jpg"
+					"event_url":"https://image.rush49.com/rush49/snorkeling-los-angeles-san-diego-1-730px.jpeg"
 				}
 			]
 		
@@ -438,7 +428,7 @@
 		}, 
 		{
 			"category": "Amusement Parks",
-			"category_url": "https://66.media.tumblr.com/tumblr_m25ejsT2Ay1rqyxelo1_500.jpg",
+			"category_url": "http://missionsands.com/custimages/Belmont2.jpg",
 			"suggestions": [
 				{
 					"category": "Amusement Parks",

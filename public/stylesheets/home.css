@@ -121,13 +121,12 @@ h3 {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)
     ),
-    url(https://66.media.tumblr.com/e95961696bb79f01013bda678452bce9/tumblr_og0o4cf8BT1rsezm9o1_1280.jpg);
+    url(https://66.media.tumblr.com/e95961696bb79f01013bda678452bce9/tumblr_og0o4cf8BT1rsezm9o1_1280.jpg) center center;
     background-size: cover;
-    width: 150%;
     height: 25%;
-    min-height: 10%;
-    min-width: 110%;
-    float: left;
+    width: 120%;
+    max-width: 450px;
+    float: center;
     position: relative;
 }
 
