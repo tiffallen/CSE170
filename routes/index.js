@@ -6,6 +6,8 @@ var data = require('../data.json');
 
 //var bucketlist = require('./bucketlist_route');
 //var bucketlist_expanded = require('./bucketlist_get_json');
+var newUser = require('../public/javascripts/createAccount');
+var createAccount = require('../routes/createAccount');
 //var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
 var home = require('../public/javascripts/home');
 //var home1 = require('../public/javascripts/home');
@@ -39,6 +41,8 @@ router.get('/detail', function(req, res, next) {
 	//router.get('/', bucketlist.view);
 	//res.render('layout');
 }); */
+router.get('/createAccount', createAccount.createAccount);
+router.get('/newUser', newUser.view);
 //router.get('/bucketlist', bucketlist.view);
 //router.get('/bucketExpanded', bucketlistexpanded.view);
 router.get('/home', home.view);
