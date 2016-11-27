@@ -6,8 +6,9 @@ exports.createAccount = function(req, res) {
 	var confirmPassword = req.query.confirmPassword;
 	var newUser = {"username": username, "password": password};
 	console.log(newUser);
+    return res.redirect("home");
 	
-	if(password == confirmPassword) {
+	/* if(password == confirmPassword) {
 		data.mylogin.push(newUser);
 		window.alert("Passwords match");
 		return res.redirect('home');
@@ -15,6 +16,6 @@ exports.createAccount = function(req, res) {
 	else {
 		window.alert("Passwords do not match. Please try again :)");
 		return res.redirect('createAccount');
-	}
+	} */
 }
 
