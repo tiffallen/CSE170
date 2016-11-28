@@ -7,9 +7,9 @@ var data = require('../data.json');
 //var bucketlist = require('./bucketlist_route');
 //var bucketlist_expanded = require('./bucketlist_get_json');
 
-//CREATE ACCOUNT AND NEW USER USED -------------------------------------
 var newUser = require('../public/javascripts/newUserView');
 var createAccount = require('../routes/createAccount');
+var loginError = require('../public/javascripts/loginError');
 
 //var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
 var home = require('../public/javascripts/home');
@@ -48,11 +48,9 @@ router.get('/detail', function(req, res, next) {
 	//res.render('layout');
 }); */
 
-//CREATE ACCOUNT USED ---------------------------------------
 router.get('/createAccount', createAccount.createAccount);
-
-//NEW USER USED --------------------------------------------
 router.get('/newUser', newUser.view);
+router.get('/loginError', loginError.view);
 
 //router.get('/bucketlist', bucketlist.view);
 //router.get('/bucketExpanded', bucketlistexpanded.view);
@@ -86,8 +84,6 @@ router.get('/', function(req, res, next) {
 	res.sendFile(__dirname + '/login.html');
 	//res.render('layout');
 });
-
-//NEW USER PREVIOUSLY USED-----------------------------
 
 /* router.get('/newUser', function(req, res, next) {
 
