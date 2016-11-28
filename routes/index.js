@@ -25,6 +25,8 @@ var memnew = require('../public/javascripts/memoriesnew');
 var bucketlist = require('../routes/bucketlist_route');
 var bucketexpanded = require('../public/javascripts/bucketlistexpanded');
 var bucketnew = require('../public/javascripts/bucketlistnew');
+var bucketnewerror = require('../public/javascripts/bucketlistnewerror');
+
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
   res.render('index', { title: 'Just Go' });
@@ -74,6 +76,7 @@ router.get('/bucketExpanded', bucketexpanded.view);
 router.get('/bucketExpanded1', bucketexpanded.view1);
 router.get('/newBucketlist', bucketnew.view);
 router.get('/newBucketlist1', bucketnew.view1);
+router.get('/newBucketlistError', bucketnewerror.view)
 
 router.get('/', function(req, res, next) {
 
