@@ -14,8 +14,6 @@ var addMemory = require('./routes/addMemory');
 var removeEvent = require('./routes/removeEvent');
 var userlogin = require('./routes/userlogin');
 
-//CREATE ACCOUNT USED-------------------------------------------- 
-
 var createAccount = require('./routes/createAccount');
 
 var users = require('./routes/users');
@@ -57,7 +55,6 @@ app.get('/addMemory1', addMemory.addMemory1);
 app.get('/removeEvent', removeEvent.removeEvent)
 app.get('/userlogin', userlogin.userlogin);
 
-//CREATE ACCOUNT USED-------------------------------
 app.get('/createAccount', createAccount.createAccount);
 
 app.get('/bucketlist', bucketlist.view);

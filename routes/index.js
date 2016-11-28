@@ -20,6 +20,7 @@ var homevent = require('../public/javascripts/homevent');
 var memories = require('../public/javascripts/memories');
 var memexpanded = require('../public/javascripts/memexpanded');
 var memnew = require('../public/javascripts/memoriesnew');
+var memnewError = require('../public/javascripts/memoriesnewError');
 
 
 var bucketlist = require('../routes/bucketlist_route');
@@ -68,6 +69,7 @@ router.get('/memExpanded', memexpanded.view);
 router.get('/memExpanded1', memexpanded.view1);
 router.get('/newMemory', memnew.view); 
 router.get('/newMemory1', memnew.view1); 
+router.get('/newMemoryError', memnewError.view)
 
 
 router.get('/bucketlist', bucketlist.view);

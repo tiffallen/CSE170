@@ -1,0 +1,140 @@
+.<!document html>
+<html>
+<head> 
+	<!-- Google Analytics Content Experiment code -->
+	<script>function utmx_section(){}function utmx(){}(function(){var
+	k='134594089-11',d=document,l=d.location,c=d.cookie;
+	if(l.search.indexOf('utm_expid='+k)>0)return;
+	function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+	indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+	length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+	'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+	'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+	'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+	valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+	'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+	</script><script>utmx('url','A/B');</script>
+	<!-- End of Google Analytics Content Experiment code -->
+
+
+	
+	<title>New Memories</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href="stylesheets/bootstrap.min.css" rel="stylesheet"/>
+	<link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet"/>
+	<link href="stylesheets/memories.css" rel="stylesheet"/>
+	
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/public/stylesheets/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	<script src="javascripts/mydate.js"></script>
+	<div class = "jumbotron app-name page-header">
+		<div class = "container1" >
+			<h1> Create New Memories </h1>
+		</div>
+	</div>
+	
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse  container1">
+				<div class="nav navbar-nav navigation">
+					<li class  = "col-xs-2 col-md-offset-2"\>
+						<ul class = "nav navbar-nav">
+							<li> <a href ="memories" onclick="ga('send', 'event', 'bbuttons', 'click', '0: memoriesNew->back');"><input type="image" class="nav-top-img" src="http://karlstratos.com/images/back.png"> </input></a> </li>
+						</ul>
+					</li>
+					<li class="col-xs-1 col-md-offset-1"\>
+						
+					</li>
+				</div>
+				
+				
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+
+
+	<!--Error Message--> 
+	<p><center><font color="red">Please include a name, location, and date!</font></center></p>
+
+	<div class="col-xs-12 col-md-12">
+	<div class="picturebody container1 pagebottom" style="margin-top: 10px">
+
+	<form id="addMemoryForm" role="form" method="get" action="/addMemory">
+		<div class="col-xs-1 col-md-1 boxlabels"> </div>
+		<div class="col-xs-10 col-md-10 boxlabels text-center">
+			<div class="form-group">
+				<label for="tripname">Adventure Name:</label><br>
+					<input type="text" name="tripname">
+			</div>
+			<div class="form-group">
+	     		<label for="category">Category:</label><br>
+	     		<input type="text" name = "category">
+	    	</div>
+	    	<div class="form-group">
+	     		<label for="location">Location:</label><br>
+	     		<input type="text" name = "triploc">
+	     	</div>
+	     	<div class="form-group">
+	     		<label for="date">Date:</label><br>
+	     		<input type="date" id="dt" onchange="mydate1();" hidden/>
+				<input type="text" id="ndt"  onclick="mydate();" name="tripdate" hidden />
+				<input type="button" Value="Date" onclick="mydate();" />
+				
+	     	</div>
+	     	<!--<div class="form-group">
+	     		<label for ="pictures">Trip Pictures:</label>
+	     		<input type="file" name ="trippics" accept="imagine/*">
+	     	</div>-->
+	     	<div class="form-group">
+	     		<label for="friends">Tagged Friends:</label><br>
+	     		<input type="text" name = "tripfriends">
+	     	</div>
+	     	<div class="form-group">
+	     		<label for="notes">Notes:</label><br>
+	     		<textarea name="tripnotes" rows="4" cols="50"></textarea>
+	     	</div>
+	     	<div class="col-xs-12 col-md-12 text-center">
+				<input type="submit" id="submitBtn" class="btn btn-default" value="Submit"> </input>
+			</div>
+			<br><br><br><br><br>
+		</div>
+	</form> 
+	</div>
+	</div>
+
+
+
+	<!-- 	FOOTER 		-->
+	<nav id="footer" class = "footer nav navbar-default" >
+		<div class = "container-fluid container2 row-fluid">
+			<div class="col-xs-1"></div>
+			<li class="footer-border footer-seperation"> <a href ="home" onclick="ga('send', 'event', 'fbuttons', 'click', '0: memories->home');" class = "col-xs-4 offset1"> <input type="image" class="footer-img" src="http://www.nuyken-transport.de/images/home-13.png"> Home <span class = "sr-only"> </span></input></a> </li>
+
+			<li class="footer-border footer-seperation"> <a href = "memories" onclick="ga('send', 'event', 'fbuttons', 'click', '0: memories->memory');" class = "col-xs-4 te"> <input type="image" class="footer-img" style="padding-top:3px;" src="http://www.berkelbike.com/wp-content/uploads/2014/08/50xNxman.png.pagespeed.ic.R6lWNMBbFB.png">Memories <span class = "sr-only"> </span> </input></a> </li>
+
+			<li class="footer-seperation"> <a href = "bucketlist" onclick="ga('send', 'event', 'fbuttons', 'click', '0: memories->bucket');" class = "col-xs-4"><input type="image" class="footer-img" src="http://www.geldplus.net/wp-content/uploads/2015/04/fazit.png"> Bucketlist <span class = "sr-only"> </span></input></a> </li>
+		</div>
+	</nav>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  
+  ga('create', 'UA-88015729-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>
