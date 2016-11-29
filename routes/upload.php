@@ -34,7 +34,16 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 if ($uploadOk == 0) {
     echo "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
-} else {
+} 
+if($target_dir) {
+    if($handle = opendir($target_dir)) {
+        while(($target_file=readdir($handle)) != false) {
+            if(($target_file === '.' || $target_file === '..')) continue;
+        }
+        closedir($handle);
+    }
+}
+else {
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
     } else {
