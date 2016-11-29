@@ -11,6 +11,9 @@ exports.addMemory = function(req, res) {
 	if(trippics == ''){ 
 		trippics = "http://lorempixel.com/400/400/people";
 	} 
+	if(trippics == undefined) { 
+		trippics = "http://lorempixel.com/400/400/people";
+	}
 
 	var tripfriends = req.query.tripfriends;
 	var mynotes = req.query.mynotes;
@@ -20,7 +23,7 @@ exports.addMemory = function(req, res) {
 	}
 
 	var newMemory = {"tripname": tripname, "category": category, "triploc": triploc, "tripdate": tripdate, "trippics": trippics, "tripfriends": tripfriends, "mynotes": mynotes};
-	console.log(newMemory);
+	//console.log(newMemory);
 	data.mymemories.unshift(newMemory);
 	return res.redirect("/memories");
 }
