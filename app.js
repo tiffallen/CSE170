@@ -13,7 +13,9 @@ var addEvent = require('./routes/addEvent');
 var addMemory = require('./routes/addMemory');
 var removeEvent = require('./routes/removeEvent');
 var userlogin = require('./routes/userlogin');
+
 var createAccount = require('./routes/createAccount');
+
 var users = require('./routes/users');
 var bucketlist = require('./routes/bucketlist_route');
 //var bucketlist_expanded = require('./routes/bucket_get_json');
@@ -52,7 +54,9 @@ app.get('/addMemory', addMemory.addMemory);
 app.get('/addMemory1', addMemory.addMemory1);
 app.get('/removeEvent', removeEvent.removeEvent)
 app.get('/userlogin', userlogin.userlogin);
+
 app.get('/createAccount', createAccount.createAccount);
+
 app.get('/bucketlist', bucketlist.view);
 app.get('/bucketlist/:id', bucketlist.projectInfo)
 app.get('/bucketlist/bucket_expand', bucketlist.projectInfo);

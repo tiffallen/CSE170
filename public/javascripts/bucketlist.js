@@ -6,8 +6,12 @@ $(document).ready(function(){
 
 function initializePage(){
 	$(".select").click(select);
+    $(".search").click(search);
 }
 
+function search(){
+    console.log("SEARCH");
+}
 function select(){
 	console.log('REPLACED ALERT' + ($(this).attr("id")));
 	$.get("/bucketdata", function(response){
