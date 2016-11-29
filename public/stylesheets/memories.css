@@ -67,10 +67,10 @@ a {
     font-size: 1.5em;
 }
 .nav-top-img {
-    max-height: 15%;
+    max-height: 20%;
     width: auto;
-    height: 10%;
-  }
+    height: 15%;
+}
 
 .form-control {
     height: 32px;

@@ -9,12 +9,11 @@ exports.userlogin = function(req, res) {
   authenticate(username, password);
 
   function authenticate(username, password){ 
-    console.log(data.mylogin.length);
+    
     console.log(username);
     console.log(password);
+
     for (var i = 0; i < data.mylogin.length; i++){
-      console.log(data.mylogin[i].username);
-      console.log(data.mylogin[i].password);
       if (data.mylogin[i].username == username && data.mylogin[i].password == password){
         if(data.directToPage1)
           return res.redirect("/home");
@@ -22,7 +21,8 @@ exports.userlogin = function(req, res) {
           return res.redirect("/home1");
       }
     }
-    return res.send('Login failed, please try again');
+    
+    return res.redirect("/loginError");
   } 
 }
  

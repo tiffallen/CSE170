@@ -6,8 +6,11 @@ var data = require('../data.json');
 
 //var bucketlist = require('./bucketlist_route');
 //var bucketlist_expanded = require('./bucketlist_get_json');
-var newUser = require('../public/javascripts/createAccount');
+
+var newUser = require('../public/javascripts/newUserView');
 var createAccount = require('../routes/createAccount');
+var loginError = require('../public/javascripts/loginError');
+
 //var bucketlistexpanded = require('../public/javascripts/bucketlistexpanded');
 var home = require('../public/javascripts/home');
 //var home1 = require('../public/javascripts/home');
@@ -17,11 +20,14 @@ var homevent = require('../public/javascripts/homevent');
 var memories = require('../public/javascripts/memories');
 var memexpanded = require('../public/javascripts/memexpanded');
 var memnew = require('../public/javascripts/memoriesnew');
+var memnewError = require('../public/javascripts/memoriesnewError');
 
 
 var bucketlist = require('../routes/bucketlist_route');
 var bucketexpanded = require('../public/javascripts/bucketlistexpanded');
 var bucketnew = require('../public/javascripts/bucketlistnew');
+var bucketnewerror = require('../public/javascripts/bucketlistnewerror');
+
 /* GET home page. */
 /* router.get('/', function(req, res, next) {
   res.render('index', { title: 'Just Go' });
@@ -41,8 +47,11 @@ router.get('/detail', function(req, res, next) {
 	//router.get('/', bucketlist.view);
 	//res.render('layout');
 }); */
+
 router.get('/createAccount', createAccount.createAccount);
 router.get('/newUser', newUser.view);
+router.get('/loginError', loginError.view);
+
 //router.get('/bucketlist', bucketlist.view);
 //router.get('/bucketExpanded', bucketlistexpanded.view);
 router.get('/home', home.view);
@@ -58,6 +67,7 @@ router.get('/memExpanded', memexpanded.view);
 router.get('/memExpanded1', memexpanded.view1);
 router.get('/newMemory', memnew.view); 
 router.get('/newMemory1', memnew.view1); 
+router.get('/newMemoryError', memnewError.view)
 
 
 router.get('/bucketlist', bucketlist.view);
@@ -66,6 +76,7 @@ router.get('/bucketExpanded', bucketexpanded.view);
 router.get('/bucketExpanded1', bucketexpanded.view1);
 router.get('/newBucketlist', bucketnew.view);
 router.get('/newBucketlist1', bucketnew.view1);
+router.get('/newBucketlistError', bucketnewerror.view)
 
 router.get('/', function(req, res, next) {
 
