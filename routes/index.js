@@ -62,20 +62,20 @@ router.get('/homeEvents', homexpanded.view1);
 router.get('/homeEvents1', homexpanded.view3);
 
 router.get('/memories', memories.view);
-router.get('/memories1', memories.view1);
+//router.get('/memories1', memories.view1);
 router.get('/memExpanded', memexpanded.view);
-router.get('/memExpanded1', memexpanded.view1);
+//router.get('/memExpanded1', memexpanded.view1);
 router.get('/newMemory', memnew.view); 
-router.get('/newMemory1', memnew.view1); 
+//router.get('/newMemory1', memnew.view1); 
 router.get('/newMemoryError', memnewError.view)
 
 
 router.get('/bucketlist', bucketlist.view);
-router.get('/bucketlist1', bucketlist.view1);
+//router.get('/bucketlist1', bucketlist.view1);
 router.get('/bucketExpanded', bucketexpanded.view);
-router.get('/bucketExpanded1', bucketexpanded.view1);
+//router.get('/bucketExpanded1', bucketexpanded.view1);
 router.get('/newBucketlist', bucketnew.view);
-router.get('/newBucketlist1', bucketnew.view1);
+//router.get('/newBucketlist1', bucketnew.view1);
 router.get('/newBucketlistError', bucketnewerror.view)
 
 router.get('/', function(req, res, next) {
