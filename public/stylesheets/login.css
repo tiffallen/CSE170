@@ -77,9 +77,9 @@ html {
     flex-direction:column;
     align-items: center;
     padding-bottom: 10%;
-    background: 
-      url(http://67.media.tumblr.com/1102214e8c0b732c2afa4b38944ca72c/tumblr_odd5mlNXtw1uvpnq9o3_1280.jpg);
-      background-color: #e7e7e7;
+    background:
+        url('/images/moments.png') center no-repeat,
+        url('/images/base.jpg') 0 0 repeat;
     
 }
 .page-name-header {
