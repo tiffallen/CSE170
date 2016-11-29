@@ -15,10 +15,11 @@ exports.userlogin = function(req, res) {
 
     for (var i = 0; i < data.mylogin.length; i++){
       if (data.mylogin[i].username == username && data.mylogin[i].password == password){
-        if(data.directToPage1)
+        return res.redirect("/home");
+       /*  if(data.directToPage1)
           return res.redirect("/home");
         else
-          return res.redirect("/home1");
+          return res.redirect("/home1"); */
       }
     }
     
