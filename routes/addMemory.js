@@ -6,7 +6,12 @@ exports.addMemory = function(req, res) {
 	var category = req.query.category; 
 	var triploc = req.query.triploc;
 	var tripdate = req.query.tripdate;
-	var trippics = "http://lorempixel.com/400/400/people";
+	var trippics = req.query.fileToUpload;
+
+	if(trippics == ''){ 
+		trippics = "http://lorempixel.com/400/400/people";
+	} 
+
 	var tripfriends = req.query.tripfriends;
 	var mynotes = req.query.mynotes;
 

@@ -98,15 +98,25 @@
 	     		<label for="notes">Notes:</label><br>
 	     		<textarea name="tripnotes" rows="4" cols="50"></textarea>
 	     	</div>
-	     	<div class="col-xs-12 col-md-12 text-center">
+
+	     	<form action="upload.php" method="post" enctype="multipart/form-data">
+				<label for ="pictures">Trip Pictures:</label>
+    			<input type="file" name="fileToUpload" id="fileToUpload">
+
+    			<br><br>
+    			<div class="col-xs-12 col-md-12 text-center">
+    				<input type="submit" value="Submit" name="submit">
+    			</div>
+			</form>
+
+	     	<!--<div class="col-xs-12 col-md-12 text-center">
 				<input type="submit" id="submitBtn" class="btn btn-default" value="Submit"> </input>
-			</div>
+			</div>-->
 			<br><br><br><br><br>
 		</div>
 	</form> 
 	</div>
 	</div>
-
 
 
 	<!-- 	FOOTER 		-->
