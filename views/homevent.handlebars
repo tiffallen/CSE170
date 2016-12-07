@@ -1,20 +1,6 @@
 .<!document html>
 <html>
-<head> 
-	<!-- Google Analytics Content Experiment code -->
-	<script>function utmx_section(){}function utmx(){}(function(){var
-	k='134594089-0',d=document,l=d.location,c=d.cookie;
-	if(l.search.indexOf('utm_expid='+k)>0)return;
-	function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
-	indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
-	length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
-	'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
-	'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
-	'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
-	valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
-	'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
-	</script><script>utmx('url','A/B');</script>
-	<!-- End of Google Analytics Content Experiment code -->
+<head>
 
 	<title>Explore {{event}}</title>
 	<meta charset="utf-8"/>
@@ -24,6 +10,8 @@
 	<link href="stylesheets/home.css" rel="stylesheet"/>
 	
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/public/stylesheets/bootstrap.min.js"></script> -->
@@ -42,13 +30,13 @@
 				<div class="nav navbar-nav navigation">
 					<li class  = "col-xs-2 col-md-offset-2"\>
 						<ul class = "nav navbar-nav">
-							<li> <a href ="home" onclick="ga('send', 'event', 'bbuttons', 'click', '0: homeEvent->back');"><input type="image" class="nav-top-img" src="http://karlstratos.com/images/back.png"> </input></a> </li>
+							<li> <a id="homeExpanded{{index}}" onclick="ga('send', 'event', 'bbuttons', 'click', '0: homeEvent->back');"><input type="image" class="nav-top-img" src="http://karlstratos.com/images/back.png"> </input></a> </li>
 						</ul>
 					</li>
 					<li class="col-xs-1 col-md-offset-1"\>
 					
 					<li class  = "col-xs-6 text-center" >
-						
+						<h2 style="text-decoration: underline;color:black;font-family: 'Shadows Into Light', cursive; " > {{event}} </h2>
 					</li>
 					<li class  = "col-xs-3 .col-md-offset-3"\ >
 						
@@ -63,26 +51,46 @@
 
 	<!-- WHERE THE PICTURES START -->
 	<div class = "picturebody container col-xs-12 col-md-12 pagebottom" style = "margin-top: 10px;">
+		<div class="w3-content w3-display-container col-xs-10 col-md-10 pic-center img-background">
+  			<img class="mySlides" src="{{event_url}}" style="height:120%;">
+  			<img class="mySlides" src="{{pic1}}" style="height:120%;">
+  			<img class="mySlides" src="{{pic2}}" style="height:120%;">
+  			<img class="mySlides" src="{{pic3}}" style="height:120%;">
+  			<img class="mySlides" src="{{pic4}}" style="height:120%;">
+
+  			<a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+  			<a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+  			<br><br>
+		</div>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			  showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("mySlides");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+
+
 			<div class = "col-xs-7 col-md-7" >
-				<div class = "thumbnail img-thumbnail  module mid" style="width:100%; background: 
-    				linear-gradient(
-      					rgba(0, 0, 0, 0.3),
-      					rgba(0, 0, 0, 0.3)),
-     				url({{event_url}});
-     				background-size: cover">
-					<div class = "caption text-center">
-						<h4> {{event}} </h4>
-					</div>
-				</div>
-			</div>
-			<div class = "col-xs-1 col-md-1" ></div>
-			<div class = "col-xs-4 col-md-4">
-					<br><br>
-					<h4> Event: </h4> <h3> {{event}} </h3>
-			</div> 
-			
-			<form id="addEventForm" role="form" method="get" action="/addEvent">
-	     		<div class="col-xs-12 col-md-12 text-center">
+				<form id="addEventForm" role="form" method="get" action="/addEvent">
+	     		<div class="col-xs-12 col-md-12">
+				
+				<br>
+				<a class="btn btn-default" style="color: black" href="{{googlemaps}}"> Open Google Maps</a>
+				<br><br>
+				<a class="text-center btn btn-default" style="color: black" href="{{website}}" target="_blank"> Website Link </a>
 
 	     		<div class="form-group">
 					<input type="hidden" name="adventurename" value="{{event}}">
@@ -91,12 +99,20 @@
 					<input type="hidden" name="adventurepics" value="{{event_url}}">
 	     		</div>
 
-					<input type="submit" id="submitBtn" class="btn btn-default" value="Add to Bucketlist" onclick="location.href='/bucketlist'"></input>
+					<input type="submit" id="submitBtn" class="btn btn-success" value="Add to Bucketlist" onclick="location.href='/bucketlist'"></input>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 				</div>
+
 			</form> 
+			</div>
+			<div class = "col-xs-5 col-md-5">
+				
+					<h4 style="text-decoration: underline;"> Address: </h4> <h6> &nbsp;&nbsp;{{location}} </h6>
+					<h4 style="text-decoration: underline;"> Neighborhood: </h4> <h6 > &nbsp;&nbsp;{{neighborhood}} </h6>
+			</div> 
+		
 	</div>
 	
-	<br><br><br><br><br>
 
 
 	<!-- 	FOOTER 		-->
@@ -122,6 +138,7 @@
   ga('send', 'pageview');
 
 </script>
+ <script src="javascripts/button_interactions/home_interaction.js"></script>
 
 </body>
 </html>

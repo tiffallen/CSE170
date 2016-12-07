@@ -135,11 +135,13 @@ h3 {
     ),
     url(https://66.media.tumblr.com/e95961696bb79f01013bda678452bce9/tumblr_og0o4cf8BT1rsezm9o1_1280.jpg) center center;
     background-size: cover;
+     background-position: center;
     height: 25%;
     width: 120%;
     max-width: 450px;
     float: center;
     position: relative;
+
 }
 
 .mid h4 {
@@ -188,3 +190,21 @@ h3 {
 #slideout:hover #slideout_inner {
   left: 0;
 }
+
+.pic-center img{
+  top: 0;
+   display: block;
+  margin: 0 auto;
+ overflow: hidden;
+}
+
+.img-background {
+      width:100%;
+    height:40%;
+    overflow:hidden;
+    border-color:#DADADA;     
+    border-style:solid;
+    border-width:thin;
+    background-color:black;
+}
+
