@@ -993,12 +993,180 @@
 		
 		},
 		{
+			"category": "Los Angeles",
+			"category_url": "",
+			"suggestions": [
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "The Last Bookstore",
+					"location": "453 S Spring St, Los Angeles, CA 90013",
+					"website": "http://lastbookstorela.com/",
+					"neighborhood": "Downtown LA",
+					"googlemaps": "https://goo.gl/maps/sWFyRVdBaJk",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e15/11137935_832423453478821_1697419908_n.jpg?ig_cache_key=OTY1MzEzMjEwMzg3ODU4ODU0.2",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "Bar: EightyTwo",
+					"location": "707 E. 4th Pl, Los Angeles, 90013",
+					"website": "http://eightytwo.la/",
+					"neighborhood": "LA Arts District (near downtown)",
+					"googlemaps": "https://goo.gl/maps/ZPUh4rHEZCP2",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/14717513_1756460534674707_1270386308941873152_n.jpg?ig_cache_key=MTQxNzgyMTU2ODI2ODA1Mjk2OQ%3D%3D.2",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "Neon Retro Arcade",
+					"location": "28 South Raymond Ave, Pasadena, CA 91105",
+					"website": "http://neonretroarcade.com/",
+					"neighborhood": "Pasadena",
+					"googlemaps": "https://goo.gl/maps/wYWzBoxoVy32",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15625569_301405826921626_6974223759884419072_n.jpg?ig_cache_key=MTQxNTcwNjY1MzA2MzY1MzUzNA%3D%3D.2",
+					"price":"$10/hr, $25/day",
+					"description":"Old school aracade",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "The Broad",
+					"location": "221 S Grand Ave, Los Angeles, CA 90012",
+					"website": "http://www.thebroad.org/",
+					"neighborhood": "Downtown LA",
+					"googlemaps": "https://goo.gl/maps/T9Wk4uNok1k",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15802881_697202350443356_8904702853814157312_n.jpg?ig_cache_key=MTQxNzU0ODE0MzQ4Njk3MTkyNg%3D%3D.2",
+					"pic1": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15803549_2184747471749647_2630771965354311680_n.jpg?ig_cache_key=MTQxODY4MjI5NTQwOTQ5ODM3NQ%3D%3D.2",
+					"pic2": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15623642_352397571789328_1171685357729611776_n.jpg?ig_cache_key=MTQxNzc5MTI1MTQxMDg2MzY3Nw%3D%3D.2",
+					"pic3": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/14533610_1895651974054690_6969908889709969408_n.jpg?ig_cache_key=MTQxODM2NTIyMjU1MzI4NTY1OQ%3D%3D.2",
+					"pic4": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15624635_232824053825572_4413679088254844928_n.jpg?ig_cache_key=MTQxODM1MzY2ODA0MTg5MjU4OQ%3D%3D.2",
+					"caption":"Honey I srank"
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "LACMA",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15034520_1777442965841589_6913873529435848704_n.jpg?ig_cache_key=MTM4NTQ4NDM2NDcyMDM4NTM2Ng%3D%3D.2"
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "Skyslide: Oue Skyspace",
+					"location": "633 West Fifth Street Suite 840 Los Angeles, CA 90071",
+					"website": "https://oue-skyspace.com",
+					"neighborhood": "LA Downtown: Finacial District",
+					"googlemaps": "https://goo.gl/maps/e2kP2ywfn1k",
+					"event_url":"http://s1.r29static.com//bin/entry/56b/x,80/1613178/image.jpg",
+					"pic1": "https://oue-skyspace.com/wp-content/uploads/2015/08/CF009835-Golden_Hour-RT.jpg",
+					"pic2": "https://oue-skyspace.com/wp-content/uploads/2015/08/CF009880-Twilight.jpg",
+					"pic3": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15802998_1381162228563731_8526787697891606528_n.jpg?ig_cache_key=MTQxODYwNDUzNjc5NjQyMTE2MQ%3D%3D.2",
+					"pic4": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15623828_620922311425005_3546781536315506688_n.jpg?ig_cache_key=MTQxNjM1NzA5MzUyMzI2MDQ1Ng%3D%3D.2",
+					"price":"$33 (slide/4 levels of skyspace/oberservation terrace"
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				}
+			]
+		
+		},
+		{
+			"category": "Los Angeles Eats",
+			"category_url": "",
+			"suggestions": [
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": ""
+				}
+			]
+		
+		},
+		{
 			"category": "Halloween",
 			"category_url": "http://cdn.history.com/sites/2/2013/11/Halloween-Hero-1-A.jpeg",
 			"suggestions": [
 				{
 					"category": "Halloween",
-					"index":"12",
+					"index":"13",
 					"event": "Haunted Trails",
 					"location": "",
 					"website": "",
@@ -1008,7 +1176,7 @@
 				},
 				{
 					"category": "Halloween",
-					"index":"12",
+					"index":"13",
 					"event": "Escape Room SD: Harvest Motel",
 					"location": "",
 					"website": "",
@@ -1018,7 +1186,7 @@
 				},
 				{
 					"category": "Halloween",
-					"index":"12",
+					"index":"13",
 					"event": "Haunted Hotel",
 					"location": "",
 					"website": "",
