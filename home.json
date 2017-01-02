@@ -994,7 +994,7 @@
 		},
 		{
 			"category": "Los Angeles",
-			"category_url": "",
+			"category_url": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15802581_842920669181529_6112448931403137024_n.jpg?ig_cache_key=MTQxODUyNTY2Mzc2NTI1MjA1Mg%3D%3D.2",
 			"suggestions": [
 				{
 					"category": "LA",
@@ -1053,17 +1053,25 @@
 					"pic2": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15623642_352397571789328_1171685357729611776_n.jpg?ig_cache_key=MTQxNzc5MTI1MTQxMDg2MzY3Nw%3D%3D.2",
 					"pic3": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/14533610_1895651974054690_6969908889709969408_n.jpg?ig_cache_key=MTQxODM2NTIyMjU1MzI4NTY1OQ%3D%3D.2",
 					"pic4": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15624635_232824053825572_4413679088254844928_n.jpg?ig_cache_key=MTQxODM1MzY2ODA0MTg5MjU4OQ%3D%3D.2",
-					"caption":"Honey I srank"
+					"caption":"Honey I srank",
+					"price":"Free w/ reservation",
+					"hours":"Closed Monday"
 				},
 				{
 					"category": "LA",
 					"index":"12",
 					"event": "LACMA",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15034520_1777442965841589_6913873529435848704_n.jpg?ig_cache_key=MTM4NTQ4NDM2NDcyMDM4NTM2Ng%3D%3D.2"
+					"location": "5905 Wilshire Blvd, Los Angeles, CA 90036",
+					"website": "https://my.lacma.org/events/2761",
+					"neighborhood": "Miracle Mile near Beverly Hills",
+					"googlemaps": "https://goo.gl/maps/MnXX974dxGS2",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15802581_842920669181529_6112448931403137024_n.jpg?ig_cache_key=MTQxODUyNTY2Mzc2NTI1MjA1Mg%3D%3D.2",
+					"pic1": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15801927_1849938918580944_7769891804660367360_n.jpg?ig_cache_key=MTQxODU4Mjc1ODA0OTIxODIzMg%3D%3D.2",
+					"pic2": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15803649_900276176774303_3647201672742043648_n.jpg?ig_cache_key=MTQxNzY3MzY2Mzg3MzEwMTI0NA%3D%3D.2",
+					"pic3": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15803718_210424842698055_684352989363699712_n.jpg?ig_cache_key=MTQxODQyNDMzNDcyNDU2NTU4Mg%3D%3D.2",
+					"pic4": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15624851_1891717687728710_1071044056257134592_n.jpg?ig_cache_key=MTQxODY1NTU3NTkzMjY0ODE3OA%3D%3D.2",
+					"price":"$15 Adults, $10 students",
+					"hours":"Mon/Tue/Thur: 11am-5pm, Fri:11am-8pm, Sat/Sun:10am-7pm"
 				},
 				{
 					"category": "LA",
@@ -1079,6 +1087,35 @@
 					"pic3": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15802998_1381162228563731_8526787697891606528_n.jpg?ig_cache_key=MTQxODYwNDUzNjc5NjQyMTE2MQ%3D%3D.2",
 					"pic4": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15623828_620922311425005_3546781536315506688_n.jpg?ig_cache_key=MTQxNjM1NzA5MzUyMzI2MDQ1Ng%3D%3D.2",
 					"price":"$33 (slide/4 levels of skyspace/oberservation terrace"
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "Venice Canals Walkway",
+					"location": "2498 Dell Ave Venice, CA 90291",
+					"website": "http://www.latimes.com/health/la-he-walks-venice-canals-html-htmlstory.html",
+					"neighborhood": "Venice",
+					"googlemaps": "https://goo.gl/maps/nBFpaFA5nFT2",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15624977_1059983060780305_6358729215218548736_n.jpg?ig_cache_key=MTQxODM0NjgxMTYzODE1Nzc5Ng%3D%3D.2",
+					"pic1": "http://www.trbimg.com/img-53a3412c/turbine/la-he-0621-walks-venice-canals-pictures-011/1000/6x4",
+					"pic2": "http://www.trbimg.com/img-53a3412f/turbine/la-he-0621-walks-venice-canals-pictures-013/1000/6x4",
+					"pic3": "http://www.trbimg.com/img-53a34130/turbine/la-he-0621-walks-venice-canals-pictures-014/1000/6x4",
+					"pic4": "http://www.trbimg.com/img-53a34123/turbine/la-he-0621-walks-venice-canals-pictures-002/1000/6x4"
+				},
+				{
+					"category": "LA",
+					"index":"12",
+					"event": "iPic Theaters",
+					"location": "10840 Wilshire Blvd, Los Angeles, CA 90024",
+					"website": "https://www.ipictheaters.com/#/",
+					"neighborhood": "Beverly Hills",
+					"googlemaps": "https://goo.gl/maps/yNPKnLUJcvp",
+					"event_url":"",
+					"pic1": "https://lh3.googleusercontent.com/1hc4qEoEI2y7tnvyReE5Cj80yKaRz_kv3hj1bjNEdh4ILYGP-OTefPN0STO8E4_clh8eM2oIyvz3=w2048-h1363-rw-no",
+					"pic2": "http://static.urbandaddy.com/uploads/assets/image/slideshows/standard/18a395cc7a29ba3e67da4bbac09073e5.jpg",
+					"pic3": "",
+					"pic4": "",
+					"price":"$32.00"
 				},
 				{
 					"category": "LA",
@@ -1113,21 +1150,135 @@
 		},
 		{
 			"category": "Los Angeles Eats",
-			"category_url": "",
+			"category_url": "https://static.wixstatic.com/media/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.jpg/v1/fill/w_486,h_324,al_c,q_90,usm_0.66_1.00_0.01/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.webp",
 			"suggestions": [
 				{
 					"category": "Los Angeles Eats",
-					"index":"13",
-					"event": "",
+					"index":"11",
+					"event": "Pasta Sisters (LA)",
 					"location": "",
 					"website": "",
 					"neighborhood": "",
 					"googlemaps": "",
-					"event_url":"",
-					"pic1": "",
-					"pic2": "",
-					"pic3": "",
+					"event_url":"https://static.wixstatic.com/media/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.jpg/v1/fill/w_486,h_324,al_c,q_90,usm_0.66_1.00_0.01/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.webp"
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "PLAN CHECK",
+					"location": "1800 Sawtelle Blvd, Los Angeles, CA 90025",
+					"website": "plancheck.com",
+					"neighborhood": "Brentwood near Beverly Hills",
+					"googlemaps": "https://goo.gl/maps/9sRuL7CZrY12",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/14677216_1667573120221556_6516264264833957888_n.jpg?ig_cache_key=MTM3Nzc4Mzk5MzM3NzkyOTEyNA%3D%3D.2",
+					"pic1": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15623678_364331017280185_5950652977877352448_n.jpg?ig_cache_key=MTQxNzAyMjY1MTM2OTQwMTUzNw%3D%3D.2",
+					"pic2": "https://static.urbandaddy.com/uploads/assets/image/slideshows/standard/66b67cec7ce2a8a433ed88e6e54025b3.jpg",
+					"pic3": "https://static.urbandaddy.com/uploads/assets/image/slideshows/standard/6c9de3ce09888734ba86e6a1d32f861c.jpg",
 					"pic4": ""
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "Sprinkles ATM",
+					"location": "9635 south santa monica boulevard beverly hills, california 90210",
+					"website": "http://sprinkles.com/cupcake-atm",
+					"neighborhood": "Beverly Hills",
+					"googlemaps": "https://goo.gl/maps/tMViXoRgG9G2",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15802842_861375333965681_3641581583481176064_n.jpg?ig_cache_key=MTQxNjEyNzQ5MDgyMTA0MzU5MA%3D%3D.2",
+					"pic1": "http://sprinkles.com/v3_images/splash-small/stores/beverly-hills/cupcake-atm.jpg",
+					"pic2": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/sh0.08/e35/p750x750/14533595_1698325467145596_2647234184157855744_n.jpg?ig_cache_key=MTQwMzM2NTQwMzI5NTc3Mzg2NQ%3D%3D.2",
+					"pic3": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/14582316_734752350014411_4172529323263131648_n.jpg?ig_cache_key=MTQwMTA1ODA2Njc2MTQyODQ4Mg%3D%3D.2",
+					"pic4": ""
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "The Tasting Kitchen",
+					"location": "",
+					"website": "http://www.thetastingkitchen.com/brunch.html",
+					"neighborhood": "Venice",
+					"googlemaps": "https://goo.gl/maps/To7gnMkCFKQ2",
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/6WsEzDUVJPKuep4TLzLCRw/o.jpg",
+					"pic1": "https://s3-media3.fl.yelpcdn.com/bphoto/KeYDnjZPpn7EhqN-qIfyFg/o.jpg",
+					"pic2": "https://s3-media2.fl.yelpcdn.com/bphoto/d1pQKxv47k-EAcb7upj8dw/o.jpg",
+					"pic3": "https://s3-media2.fl.yelpcdn.com/bphoto/_da4oo7JHTizdzj-Sk3gtw/o.jpg",
+					"pic4": "https://s3-media3.fl.yelpcdn.com/bphoto/m9WjkuIJSFyAlEnoaTw4Yg/o.jpg",
+					"hours":"not opened new years"
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "Crave Cafe",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://s3-media4.fl.yelpcdn.com/bphoto/usgGrzCyoKLoxftNmTwkCg/o.jpg",
+					"pic1": "https://s3-media3.fl.yelpcdn.com/bphoto/XQpalOm1tzVsTKhG6OWukw/o.jpg",
+					"pic2": "https://s3-media1.fl.yelpcdn.com/bphoto/0DzTOsddhQKubtQlCLCNvg/o.jpg",
+					"pic3": "https://s3-media3.fl.yelpcdn.com/bphoto/hyqK4YsrFPjlQyPrIFWnCA/o.jpg",
+					"pic4": "",
+					"hours":""
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "Lidos Pizza: All you can eat pasta",
+					"location": "15232 Victory Blvd, Van Nuys, CA 91411",
+					"website": "chichispizza.com",
+					"neighborhood": "Van Nuys",
+					"googlemaps": "https://goo.gl/maps/KUujKAseoco",
+					"event_url":"https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/12965628_1157943030907178_1061042867_n.jpg?ig_cache_key=MTIzNTg3NjE0OTI4OTg4NTMzNw%3D%3D.2",
+					"pic1": "https://s3-media1.fl.yelpcdn.com/bphoto/grrlvteJK0VUT7xfKui-ig/o.jpg",
+					"pic2": "https://s3-media3.fl.yelpcdn.com/bphoto/LnBReNwJm66LIwwaNirH4w/o.jpg",
+					"pic3": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/14583535_817603008382346_8578888653374226432_n.jpg?ig_cache_key=MTQxMDI0NDE2ODg0NDU3Njc0NA%3D%3D.2",
+					"pic4": "https://s3-media3.fl.yelpcdn.com/bphoto/Hin9-f12SIFme-J8a95ZNg/o.jpg",
+					"hours":""
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "Kitchen Mouse (Gluten Free)",
+					"location": "5904 N Figueroa St, Los Angeles, CA 90042",
+					"website": "kitchenmousela.com",
+					"neighborhood": "Highland Park",
+					"googlemaps": "https://goo.gl/maps/nzHN55g98YT2",
+					"event_url":"https://s3-media2.fl.yelpcdn.com/bphoto/yI_391_PSrmMur4GPmDIGg/o.jpg",
+					"pic1": "https://lh3.googleusercontent.com/GSShUtpu3yCp9Mme9Oy2rHk8rVwd49q99lwVFUveDPd4A84fdJSRAuwCRalIfKqmLuqGZiIkvCVG=w1280-h800-rw-no",
+					"pic2": "https://s3-media3.fl.yelpcdn.com/bphoto/EclsjJrXm6LYu8A4tSeA8w/o.jpg",
+					"pic3": "https://s3-media4.fl.yelpcdn.com/bphoto/eYayxdTdhttnft3JgiqsvA/o.jpg",
+					"pic4": "https://s3-media3.fl.yelpcdn.com/bphoto/H0oUQY9tNjsJQXeOt61DvA/o.jpg",
+					"hours":"Opens 7AM"
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "République",
+					"location": "624 South La Brea Ave, Los Angeles, CA 90036",
+					"website": "republiquela.com",
+					"neighborhood": "La Brea",
+					"googlemaps": "https://goo.gl/maps/3HQsiGizqbE2",
+					"event_url":"https://lh3.googleusercontent.com/3i6v-YmuEY--53qg4z2CAschPsxOAR9R1L6MxD1ty69mZtM8BecwgTC5Tk17Ti8tolVlsCdLDejbuQ=w1280-h800-rw-no",
+					"pic1": "https://s3-media3.fl.yelpcdn.com/bphoto/E1dXrz5Txj-_Ta9uGcFmEQ/o.jpg",
+					"pic2": "https://s3-media2.fl.yelpcdn.com/bphoto/TZJzdMsLNAg-ekOjI-6aZA/o.jpg",
+					"pic3": "https://s3-media1.fl.yelpcdn.com/bphoto/6rI8BdOxChOC6uj_4ogFEQ/o.jpg",
+					"pic4": "https://s3-media2.fl.yelpcdn.com/bphoto/uhInIjAJG9xxSN5ilTeXSQ/o.jpg",
+					"hours":"8am-3pm, 5:30pm-10pm"
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "Eveleigh",
+					"location": "8752 Sunset Blvd, West Hollywood, CA 90069",
+					"website": "theeveleigh.com",
+					"neighborhood": "West Hollywood",
+					"googlemaps": "https://goo.gl/maps/vuhma4yCA8r",
+					"event_url":"https://s3-media1.fl.yelpcdn.com/bphoto/gfxCpBgX99t0BIQrrehSOw/o.jpg",
+					"pic1": "https://s3-media1.fl.yelpcdn.com/bphoto/GALGC3uY-hETkyXiEbw77g/o.jpg",
+					"pic2": "https://s3-media1.fl.yelpcdn.com/bphoto/JaXLRuq4dzi9cRBzsgRXZw/o.jpg",
+					"pic3": "https://s3-media2.fl.yelpcdn.com/bphoto/204N8QFfhu1KNUWrvpyH2w/o.jpg",
+					"pic4": "https://s3-media3.fl.yelpcdn.com/bphoto/-p5XPZE9oqOi-bU-0vdhCg/o.jpg",
+					"hours":"11:30AM–2:30PM, 5–11PM"
 				},
 				{
 					"category": "Los Angeles Eats",
@@ -1141,7 +1292,8 @@
 					"pic1": "",
 					"pic2": "",
 					"pic3": "",
-					"pic4": ""
+					"pic4": "",
+					"hours":""
 				},
 				{
 					"category": "Los Angeles Eats",
@@ -1155,7 +1307,8 @@
 					"pic1": "",
 					"pic2": "",
 					"pic3": "",
-					"pic4": ""
+					"pic4": "",
+					"hours":""
 				}
 			]
 		
