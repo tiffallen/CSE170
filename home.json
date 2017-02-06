@@ -2,7 +2,7 @@
 	"myhomepage": [
 		{
 			"category": "Secret San Diego",
-			"category_url": "https://i.ytimg.com/vi/qrmryAu_FQw/maxresdefault.jpg",
+			"category_url": "../../images/homeimages/secretSD.jpg",
 			"suggestions": [
 				{
 					"category": "Secret San Diego",
@@ -150,7 +150,7 @@
 		}, 
 		{
 			"category": "Brunch",
-			"category_url": "http://www.yotel.com/media/260457/new-brunch-banner_1340x536.jpg?width=1323px&height=529px",
+			"category_url": "../../images/homeimages/brunch.jpg",
 			"suggestions": [
 				{
 					"category": "Brunch",
@@ -255,7 +255,7 @@
 		},
 		{
 			"category": "Cafes",
-			"category_url": "https://66.media.tumblr.com/3c81f4ea9f545315077f5f8a773fe482/tumblr_ofh6bij9ZL1v5nhxeo1_500.jpg",
+			"category_url": "../../images/homeimages/cafes.jpg",
 			"suggestions": [
 				{
 					"category": "Cafes",
@@ -332,7 +332,7 @@
 		},
 		{
 			"category": "Outdoors",
-			"category_url": "https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/15048216_288948761506286_8723229610700963840_n.jpg?ig_cache_key=MTM4NjIwMDY0Mzc5ODM1MTkyOQ%3D%3D.2",
+			"category_url": "../../images/homeimages/outdoors.jpg",
 			"suggestions": [
 				{
 					"category": "Outdoors",
@@ -449,7 +449,7 @@
 		},
 		{
 			"category": "Date Night",
-			"category_url": "https://66.media.tumblr.com/04564e0bd2d8bf3d2ae15a7c9a50c014/tumblr_oaxm6bkrCr1v3txejo1_500.png",
+			"category_url": "../../images/homeimages/datenight.jpg",
 			"suggestions": [
 				{
 					"category": "Date Night",
@@ -497,7 +497,7 @@
 		},
 		{
 			"category": "Winter Holidays",
-			"category_url": "https://65.media.tumblr.com/286c21b4ce429ddfe76314884dbe9c16/tumblr_nz3hvaBYMu1s6taa7o1_500.jpg",
+			"category_url": "../../images/homeimages/winterholidays.jpg",
 			"suggestions": [
 				{
 					"category": "Winter Holidays",
@@ -544,7 +544,7 @@
 		},
 		{
 			"category": "Nightlife",
-			"category_url": "https://67.media.tumblr.com/b4c3d86dc6e7bab5aaedfb6b6e2131de/tumblr_np7snvbhb81t2kks8o1_500.gif",
+			"category_url": "../../images/homeimages/nightlife.gif",
 			"suggestions": [
 				{
 					"category": "Nightlife",
@@ -600,8 +600,142 @@
 		
 		},
 		{
+			"category": "Local Food",
+			"category_url": "../../images/homeimages/localfood.jpg",
+			"suggestions": [
+				{
+					"category": "Local Food",
+					"index":"8",
+					"event": "Vallartas Express",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/8A5MBkIM90taMHsS6-XlxQ/o.jpg"
+				},
+				{
+					"category": "Local Food",
+					"index":"8",
+					"event": "Lucha Libre Tacos",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"http://myinsurancechef.com/wp-content/uploads/2015/11/lucha-libre-taco-booth.jpg"
+				},
+				{
+					"category": "Local Food",
+					"index":"8",
+					"event": "Tajima",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"http://res.ejeats.com/assets/tajima-ramen-san-diego.jpg"
+				},
+				{
+					"category": "Local Food",
+					"index":"8",
+					"event": "Pokirrito",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13735949_1103657529725737_1388400270_n.jpg?ig_cache_key=MTMwNzU0NTM3MzM4MDUxMjU3Mg%3D%3D.2"
+				}
+			]
+		
+		},
+		{
+			"category": "Group Activities",
+			"category_url": "../../images/homeimages/group.jpg",
+			"suggestions": [
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Trampoline Park: Sky Zone",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://img.grouponcdn.com/deal/n4CnxtJTF6dnY6qgPSuN/RV-700x420/v1/c700x420.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Belmont Park",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"http://missionsands.com/custimages/Belmont2.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Social Cycle",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://img.grouponcdn.com/deal/7SQGktEXwvZgiuNY1QU6oe/IMAGE_Social-Cycle1-1280x768/v1/c700x420.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Bike & kayak",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://img.grouponcdn.com/deal/ikce6CJ2aWPk7PqQKgPV/Ky-1800x1080.jpg/v1/c700x420.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Ugly Sweater Pub Crawl",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"http://sandiegopubcrawler.com/images/announcements/UglySweater.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Murder Mystery: The Dinner Detective",
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"http://sandiego.carpediem.cd/data/afisha/o/bb/c4/bbc4da4185.jpg"
+				},
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Snorkel San Diego Scuba" ,
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://image.rush49.com/rush49/snorkeling-los-angeles-san-diego-1-730px.jpeg"
+				},
+				{
+					"category": "Group Activities",
+					"index":"9",
+					"event": "Escape Room: Escape Game SD" ,
+					"location": "",
+					"website": "",
+					"neighborhood": "",
+					"googlemaps": "",
+					"event_url":"https://image.rush49.com/rush49/images/escape1448501156website.jpg"
+				}
+			]
+		
+		},
+		{
 			"category": "Living La Vida Local",
-			"category_url": "http://www.elevatorworld.com/blogs/wp-content/uploads/2013/07/july_4th_fireworks_chicago.jpg",
+			"category_url": "../../images/homeimages/local.jpg",
 			"suggestions": [
 				{
 					"category": "Local Acitivities",
@@ -725,142 +859,8 @@
 		
 		}, 
 		{
-			"category": "Local Food",
-			"category_url": "https://www.gocartours.com/wp-content/uploads/San-Diego-Food-Trucks-Calbi-2.jpg",
-			"suggestions": [
-				{
-					"category": "Local Food",
-					"index":"8",
-					"event": "Vallartas Express",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://s3-media3.fl.yelpcdn.com/bphoto/8A5MBkIM90taMHsS6-XlxQ/o.jpg"
-				},
-				{
-					"category": "Local Food",
-					"index":"8",
-					"event": "Lucha Libre Tacos",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"http://myinsurancechef.com/wp-content/uploads/2015/11/lucha-libre-taco-booth.jpg"
-				},
-				{
-					"category": "Local Food",
-					"index":"8",
-					"event": "Tajima",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"http://res.ejeats.com/assets/tajima-ramen-san-diego.jpg"
-				},
-				{
-					"category": "Local Food",
-					"index":"8",
-					"event": "Pokirrito",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://scontent-lax3-1.cdninstagram.com/t51.2885-15/e35/13735949_1103657529725737_1388400270_n.jpg?ig_cache_key=MTMwNzU0NTM3MzM4MDUxMjU3Mg%3D%3D.2"
-				}
-			]
-		
-		},
-		{
-			"category": "Group Activities",
-			"category_url": "https://media.glassdoor.com/l/c1/95/78/23/san-diego-branch-5k.jpg",
-			"suggestions": [
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Trampoline Park: Sky Zone",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://img.grouponcdn.com/deal/n4CnxtJTF6dnY6qgPSuN/RV-700x420/v1/c700x420.jpg"
-				},
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Belmont Park",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"http://missionsands.com/custimages/Belmont2.jpg"
-				},
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Social Cycle",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://img.grouponcdn.com/deal/7SQGktEXwvZgiuNY1QU6oe/IMAGE_Social-Cycle1-1280x768/v1/c700x420.jpg"
-				},
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Bike & kayak",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://img.grouponcdn.com/deal/ikce6CJ2aWPk7PqQKgPV/Ky-1800x1080.jpg/v1/c700x420.jpg"
-				},
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Ugly Sweater Pub Crawl",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"http://sandiegopubcrawler.com/images/announcements/UglySweater.jpg"
-				},
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Murder Mystery: The Dinner Detective",
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"http://sandiego.carpediem.cd/data/afisha/o/bb/c4/bbc4da4185.jpg"
-				},
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Snorkel San Diego Scuba" ,
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://image.rush49.com/rush49/snorkeling-los-angeles-san-diego-1-730px.jpeg"
-				},
-				{
-					"category": "Group Activities",
-					"index":"9",
-					"event": "Escape Room: Escape Game SD" ,
-					"location": "",
-					"website": "",
-					"neighborhood": "",
-					"googlemaps": "",
-					"event_url":"https://image.rush49.com/rush49/images/escape1448501156website.jpg"
-				}
-			]
-		
-		},
-		{
 			"category": "Amusement Parks",
-			"category_url": "http://missionsands.com/custimages/Belmont2.jpg",
+			"category_url": "../../images/homeimages/amusementparks.jpg",
 			"suggestions": [
 				{
 					"category": "Amusement Parks",
@@ -927,7 +927,7 @@
 		},
 		{
 			"category": "Going Out Of Town",
-			"category_url": "https://s-media-cache-ak0.pinimg.com/236x/9a/4a/4d/9a4a4db88e0691fd2a60c457f71e6899.jpg",
+			"category_url": "../../images/homeimages/goingoutoftown.jpg",
 			"suggestions": [
 				{
 					"category": "Going Out Of Town",
@@ -994,7 +994,7 @@
 		},
 		{
 			"category": "Los Angeles",
-			"category_url": "https://instagram.fsan1-2.fna.fbcdn.net/t51.2885-15/e35/15802581_842920669181529_6112448931403137024_n.jpg?ig_cache_key=MTQxODUyNTY2Mzc2NTI1MjA1Mg%3D%3D.2",
+			"category_url": "../../images/homeimages/LA.jpg",
 			"suggestions": [
 				{
 					"category": "LA",
@@ -1120,6 +1120,20 @@
 				{
 					"category": "LA",
 					"index":"12",
+					"event": "vinadore cafe",
+					"location": "8157 Santa Monica Blvd West Hollywood, 90046",
+					"website": "http://www.vinadorecafe.com/",
+					"neighborhood": "Santa Monica",
+					"googlemaps": "http://maps.google.com/maps?q=8157%20Santa%20Monica%20Blvd,West%20Hollywood,%2090046",
+					"event_url":"https://s3-media1.fl.yelpcdn.com/bphoto/eMDr0XNjm0TxT_cEbdBt2w/o.jpg",
+					"pic1": "https://s3-media3.fl.yelpcdn.com/bphoto/jinJTfaBIJtdPMql1ZElCw/o.jpg",
+					"pic2": "https://s3-media3.fl.yelpcdn.com/bphoto/5esJ6_O9r3j_ch3ik43Qdw/o.jpg",
+					"pic3": "https://s3-media2.fl.yelpcdn.com/bphoto/lA83Nnyz1o-h-yBxz39SZw/o.jpg",
+					"pic4": "https://s3-media2.fl.yelpcdn.com/bphoto/Sf0ktC6fU0pM4ZUaw5GJsA/o.jpg"
+				},
+				{
+					"category": "LA",
+					"index":"12",
 					"event": "",
 					"location": "",
 					"website": "",
@@ -1150,7 +1164,7 @@
 		},
 		{
 			"category": "Los Angeles Eats",
-			"category_url": "https://static.wixstatic.com/media/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.jpg/v1/fill/w_486,h_324,al_c,q_90,usm_0.66_1.00_0.01/af2956_ffbfe4f9966048c68f5869b0a7740089~mv2.webp",
+			"category_url": "../../images/homeimages/LAeats.jpg",
 			"suggestions": [
 				{
 					"category": "Los Angeles Eats",
@@ -1283,6 +1297,36 @@
 				{
 					"category": "Los Angeles Eats",
 					"index":"13",
+					"event": "Chibiscus Asian Cafe",
+					"location": "7361 W Sunset Blvd, Los Angeles, CA 90046",
+					"website": "http://chibiscus.weebly.com/",
+					"neighborhood": "Hollywood",
+					"googlemaps": "https://goo.gl/maps/gSojLc76yeG2",
+					"event_url":"http://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/15624935_646986502176204_7287007931491418112_n.jpg?ig_cache_key=MTQxMDM1MTQ1MTUwNjkxOTM1Nw%3D%3D.2",
+					"pic1": "https://s3-media1.fl.yelpcdn.com/bphoto/KCeWbv1qQnm3EMCS1oS0hw/o.jpg",
+					"pic2": "https://s3-media3.fl.yelpcdn.com/bphoto/cNitHaBwQk_5_tESWxmFEA/o.jpg",
+					"pic3": "https://s3-media1.fl.yelpcdn.com/bphoto/dq5b9z09uk7bCbocnrTi7A/o.jpg",
+					"pic4": "https://s3-media2.fl.yelpcdn.com/bphoto/r8Cx2Qwq4JlCSbzveNdXTA/o.jpg",
+					"hours":"Tuesday-Sunday: Lunch: 11:30am-4:00pm, Dinner: 5:00pm-10:30pm"
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
+					"event": "Vintage Enoteca",
+					"location": "7554 W Sunset Blvd, Los Angeles, CA 90046",
+					"website": "http://www.vintageenoteca.com/",
+					"neighborhood": "llywoodWet J",
+					"googlemaps": "https://goo.gl/maps/wFx2hkNUpzG2",
+					"event_url":"",
+					"pic1": "",
+					"pic2": "",
+					"pic3": "",
+					"pic4": "",
+					"hours":"Monday to Friday: 12p- 12a, Saturday & Sunday: 11a- 12a"
+				},
+				{
+					"category": "Los Angeles Eats",
+					"index":"13",
 					"event": "",
 					"location": "",
 					"website": "",
@@ -1315,7 +1359,7 @@
 		},
 		{
 			"category": "Halloween",
-			"category_url": "http://cdn.history.com/sites/2/2013/11/Halloween-Hero-1-A.jpeg",
+			"category_url": "../../images/homeimages/halloween.jpg",
 			"suggestions": [
 				{
 					"category": "Halloween",

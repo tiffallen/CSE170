@@ -6,7 +6,7 @@
       "adventurename": "Paintball!",
       "category": "Outdoors",
       "locationideas": "SD",
-      "adventurepics": "https://s-media-cache-ak0.pinimg.com/236x/d5/0d/79/d50d79eb9169c0ab98a305224132f17b.jpg"
+      "adventurepics": "../../images/bucketlistimages/paintball.jpg"
     },
     {
 	  "selected": 0,		
@@ -14,7 +14,7 @@
       "adventurename": "Ride a Mechanical Bull",
       "category": "Nightlife",
       "locationideas": "SD",
-      "adventurepics": "https://s-media-cache-ak0.pinimg.com/236x/5b/40/f6/5b40f63fcdca2f32c9e32dd5ddd84e1d.jpg"
+      "adventurepics": "../../images/bucketlistimages/ridebull.jpg"
     },
     {
 	  "selected": 0,
@@ -22,7 +22,7 @@
       "adventurename": "Drive in movie",
       "category": "Outdoors",
       "locationideas": "SD",
-      "adventurepics": "https://loneoakfbcstudents.org/wp-content/uploads/2015/05/drive-in-inside-out-1024x766.png"
+      "adventurepics": "../../images/bucketlistimages/driveinmovie.jpg"
     },
     {
 	  "selected": 0,
@@ -30,7 +30,7 @@
       "adventurename": "Sunrise Yoga",
       "category": "Outdoors",
       "locationideas": "SD",
-      "adventurepics": "https://sites.utexas.edu/wellness/files/2016/03/sunrise-yoga.jpg"
+      "adventurepics": "../../images/bucketlistimages/yoga.jpg"
     },
     {
 	  "selected": 0,
@@ -38,7 +38,7 @@
       "adventurename": "Stargaze",
       "category": "Outdoors",
       "locationideas": "SD",
-      "adventurepics": "https://66.media.tumblr.com/ea2548b68a4b3160636e3064f76b581a/tumblr_nwiwhwSzgD1tzgvugo1_500.jpg"
+      "adventurepics": "../../images/bucketlistimages/stargaze.jpg"
     },
 	
 	{
@@ -47,7 +47,7 @@
 	  "adventurename": "Be Awesome!!",
 	  "category" : "All the Time",
 	  "locationideas" : "SD",
-	  "adventurepics": "https://66.media.tumblr.com/6fe22c5eb4bc991a5cb478df7fe48d88/tumblr_og0p2mOhRY1u2gv2io1_500.jpg"
+	  "adventurepics": "../../images/bucketlistimages/awesome.jpg"
 	}
   ]
 }
