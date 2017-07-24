@@ -1120,7 +1120,7 @@
 					"website": "https://www.ipictheaters.com/#/",
 					"neighborhood": "Beverly Hills",
 					"googlemaps": "https://goo.gl/maps/yNPKnLUJcvp",
-					"event_url":"",
+					"event_url":"https://s3-media1.fl.yelpcdn.com/bphoto/9Ahd57jfu9J1kxg8s4XoOg/o.jpg",
 					"pic1": "https://lh3.googleusercontent.com/1hc4qEoEI2y7tnvyReE5Cj80yKaRz_kv3hj1bjNEdh4ILYGP-OTefPN0STO8E4_clh8eM2oIyvz3=w2048-h1363-rw-no",
 					"pic2": "http://static.urbandaddy.com/uploads/assets/image/slideshows/standard/18a395cc7a29ba3e67da4bbac09073e5.jpg",
 					"pic3": "",
@@ -1270,7 +1270,7 @@
 				{
 					"category": "LA",
 					"index":"12",
-					"event": "",
+					"event": "Gibbon Center",
 					"location": "19100 Esguerra Road Santa Clarita CA 91390",
 					"website": "http://www.gibboncenter.org/",
 					"neighborhood": "",
