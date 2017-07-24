@@ -102,4 +102,49 @@ function initialize() {
 
 		window.location.href = '/homeExpanded?buttonID=16';
 	}); 
+	$(button + '17').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=17';
+	}); 
+	$(button + '18').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=18';
+	}); 
+	$(button + '19').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=19';
+	}); 
+	$(button + '20').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=20';
+	}); 
+	$(button + '21').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=21';
+	});
+	$(button + '22').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=22';
+	});
+	$(button + '23').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=23';
+	});
+	$(button + '24').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=24';
+	});
+	$(button + '25').click(function (e) {
+		console.log('third button clicked');
+
+		window.location.href = '/homeExpanded?buttonID=25';
+	});
 }
