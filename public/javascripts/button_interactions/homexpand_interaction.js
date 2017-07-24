@@ -64,4 +64,75 @@ function initialize() {
 
 		window.location.href = '/homeEvents?buttonID=10';
 	});
+	$(button + '11').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=11';
+	});
+	$(button + '12').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=12';
+	});
+	$(button + '13').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=13';
+	});
+	$(button + '14').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=14';
+	});
+	$(button + '15').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=15';
+	});
+	$(button + '16').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=16';
+	});
+	$(button + '17').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=17';
+	});
+	$(button + '18').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=18';
+	});
+	$(button + '19').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=19';
+	});
+	$(button + '20').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=20';
+	});
+	$(button + '21').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=21';
+	});
+	$(button + '22').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=22';
+	});
+	$(button + '23').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=23';
+	});
+	$(button + '24').click(function (e) {
+		console.log('tenth button clicked');
+
+		window.location.href = '/homeEvents?buttonID=24';
+	});
+
 }
